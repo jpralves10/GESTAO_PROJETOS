@@ -1,0 +1,866 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tree><!--This Decision Tree File has been created with Insight Tree, available from http://www.visionarytools.com-->  <OutlineCodes>1</OutlineCodes>
+  <StatusDate></StatusDate>
+  <ShowPayoff>1</ShowPayoff>
+  <StyleStates>
+    <State ID="InTakenPath">
+      <Style ID="">
+        <Settings>
+          <BackgroundColor>00FFFFFF</BackgroundColor>
+          <LineWidth>0</LineWidth>
+          <LineColor>00000000</LineColor>
+          <FontName>Verdana</FontName>
+          <FontSize>8</FontSize>
+          <FontBold>0</FontBold>
+          <FontItalic>0</FontItalic>
+          <FontUnderline>0</FontUnderline>
+          <FontStrikeOut>0</FontStrikeOut>
+          <FontColor>00008000</FontColor>
+          <FillMode>Solid</FillMode>
+          <Shadow>Soft</Shadow>
+        </Settings>
+        <Styles>
+          <Style ID="Symbols">
+            <Settings>
+              <FontColor>00008000</FontColor>
+            </Settings>
+            <Styles>
+              <Style ID="Symbols.Decision">
+                <Settings>
+                  <BackgroundColor>000000FF</BackgroundColor>
+                  <LineColor>00000080</LineColor>
+                  <FontColor>00000080</FontColor>
+                </Settings>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.MultiDecision">
+                <Settings>
+                  <BackgroundColor>000000FF</BackgroundColor>
+                  <LineColor>00008000</LineColor>
+                  <FontColor>00808000</FontColor>
+                </Settings>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.Chance">
+                <Settings>
+                  <BackgroundColor>00FF00FF</BackgroundColor>
+                  <LineColor>00008000</LineColor>
+                  <FontBold>1</FontBold>
+                  <FontColor>00008000</FontColor>
+                </Settings>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.Terminator">
+                <Settings>
+                  <BackgroundColor>00800080</BackgroundColor>
+                  <LineColor>00008000</LineColor>
+                  <FontColor>00000080</FontColor>
+                </Settings>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+          <Style ID="SymbolAttributes">
+            <Settings>
+              <BackgroundColor>00EFEFEF</BackgroundColor>
+              <LineColor>00000000</LineColor>
+              <FontColor>00000000</FontColor>
+            </Settings>
+            <Styles/>
+          </Style>
+          <Style ID="OptionDescriptors">
+            <Settings>
+              <BackgroundColor>00800000</BackgroundColor>
+              <LineWidth>3</LineWidth>
+              <LineColor>00000080</LineColor>
+              <FontColor>00F0FBFF</FontColor>
+            </Settings>
+            <Styles/>
+          </Style>
+          <Style ID="ConnectorLines">
+            <Settings>
+              <LineWidth>5</LineWidth>
+              <LineColor>00000080</LineColor>
+            </Settings>
+            <Styles/>
+          </Style>
+          <Style ID="ChanceOptionProbabilities">
+            <Settings>
+              <BackgroundColor>00C0DCC0</BackgroundColor>
+              <FontColor>00000080</FontColor>
+            </Settings>
+            <Styles/>
+          </Style>
+          <Style ID="DecisionOptionsTaken">
+            <Settings>
+              <FontColor>00003F7F</FontColor>
+            </Settings>
+            <Styles>
+              <Style ID="DecisionOptionsTaken.Yes">
+                <Settings>
+                  <LineWidth>3</LineWidth>
+                  <LineColor>00008000</LineColor>
+                </Settings>
+                <Styles/>
+              </Style>
+              <Style ID="DecisionOptionsTaken.No">
+                <Settings>
+                  <LineWidth>1</LineWidth>
+                  <LineColor>00008000</LineColor>
+                  <FontColor>00008000</FontColor>
+                </Settings>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+          <Style ID="OptionPayoff">
+            <Settings/>
+            <Styles>
+              <Style ID="OptionPayoff.Positive">
+                <Settings>
+                  <LineColor>00008000</LineColor>
+                  <FontColor>00000080</FontColor>
+                </Settings>
+                <Styles/>
+              </Style>
+              <Style ID="OptionPayoff.Negative">
+                <Settings>
+                  <LineColor>00000080</LineColor>
+                  <FontColor>000000FF</FontColor>
+                </Settings>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+        </Styles>
+      </Style>
+    </State>
+    <State ID="NotInTakenPath">
+      <Style ID="">
+        <Settings>
+          <LineWidth>0</LineWidth>
+        </Settings>
+        <Styles>
+          <Style ID="Symbols">
+            <Settings/>
+            <Styles>
+              <Style ID="Symbols.Decision">
+                <Settings>
+                  <BackgroundColor>000000FF</BackgroundColor>
+                  <LineColor>00008000</LineColor>
+                  <FontColor>00008000</FontColor>
+                </Settings>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.MultiDecision">
+                <Settings>
+                  <BackgroundColor>000000FF</BackgroundColor>
+                  <FontColor>00008000</FontColor>
+                </Settings>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.Chance">
+                <Settings>
+                  <BackgroundColor>00008000</BackgroundColor>
+                  <FontBold>0</FontBold>
+                  <FontColor>00008000</FontColor>
+                </Settings>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.Terminator">
+                <Settings>
+                  <BackgroundColor>00800080</BackgroundColor>
+                  <FontColor>00008000</FontColor>
+                </Settings>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+          <Style ID="SymbolAttributes">
+            <Settings>
+              <BackgroundColor>00EFEFEF</BackgroundColor>
+              <LineColor>00808080</LineColor>
+              <FontColor>00808080</FontColor>
+            </Settings>
+            <Styles/>
+          </Style>
+          <Style ID="OptionDescriptors">
+            <Settings>
+              <BackgroundColor>00FF8080</BackgroundColor>
+              <FontColor>00000000</FontColor>
+              <Shadow>None</Shadow>
+            </Settings>
+            <Styles/>
+          </Style>
+          <Style ID="ConnectorLines">
+            <Settings>
+              <LineWidth>2</LineWidth>
+              <LineColor>00C0DCC0</LineColor>
+            </Settings>
+            <Styles/>
+          </Style>
+          <Style ID="ChanceOptionProbabilities">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="DecisionOptionsTaken">
+            <Settings/>
+            <Styles>
+              <Style ID="DecisionOptionsTaken.Yes">
+                <Settings>
+                  <FontColor>00008000</FontColor>
+                </Settings>
+                <Styles/>
+              </Style>
+              <Style ID="DecisionOptionsTaken.No">
+                <Settings/>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+          <Style ID="OptionPayoff">
+            <Settings/>
+            <Styles>
+              <Style ID="OptionPayoff.Positive">
+                <Settings>
+                  <FontColor>00008000</FontColor>
+                </Settings>
+                <Styles/>
+              </Style>
+              <Style ID="OptionPayoff.Negative">
+                <Settings/>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+        </Styles>
+      </Style>
+    </State>
+    <State ID="CloneInTakenPath">
+      <Style ID="">
+        <Settings>
+          <FontItalic>1</FontItalic>
+        </Settings>
+        <Styles>
+          <Style ID="Symbols">
+            <Settings/>
+            <Styles>
+              <Style ID="Symbols.Decision">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.MultiDecision">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.Chance">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.Terminator">
+                <Settings/>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+          <Style ID="SymbolAttributes">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="OptionDescriptors">
+            <Settings>
+              <LineColor>00008000</LineColor>
+            </Settings>
+            <Styles/>
+          </Style>
+          <Style ID="ConnectorLines">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="ChanceOptionProbabilities">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="DecisionOptionsTaken">
+            <Settings/>
+            <Styles>
+              <Style ID="DecisionOptionsTaken.Yes">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="DecisionOptionsTaken.No">
+                <Settings/>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+          <Style ID="OptionPayoff">
+            <Settings/>
+            <Styles>
+              <Style ID="OptionPayoff.Positive">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="OptionPayoff.Negative">
+                <Settings/>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+        </Styles>
+      </Style>
+    </State>
+    <State ID="CloneNotInTakenPath">
+      <Style ID="">
+        <Settings/>
+        <Styles>
+          <Style ID="Symbols">
+            <Settings/>
+            <Styles>
+              <Style ID="Symbols.Decision">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.MultiDecision">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.Chance">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.Terminator">
+                <Settings/>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+          <Style ID="SymbolAttributes">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="OptionDescriptors">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="ConnectorLines">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="ChanceOptionProbabilities">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="DecisionOptionsTaken">
+            <Settings/>
+            <Styles>
+              <Style ID="DecisionOptionsTaken.Yes">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="DecisionOptionsTaken.No">
+                <Settings/>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+          <Style ID="OptionPayoff">
+            <Settings/>
+            <Styles>
+              <Style ID="OptionPayoff.Positive">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="OptionPayoff.Negative">
+                <Settings/>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+        </Styles>
+      </Style>
+    </State>
+  </StyleStates>
+  <CurrencyDecimals>0</CurrencyDecimals>
+  <CurrencyPosFormat>0</CurrencyPosFormat>
+  <CurrencyNegFormat>1</CurrencyNegFormat>
+  <CurrencySymbol>$</CurrencySymbol>
+  <Branch id="4ddc06fe-1a1c-4e65-8713-7f41e3882ce3">
+    <Caption>Project selection</Caption>
+    <Comment>Right click for options</Comment>
+    <Type>MultiDecision</Type>
+    <ChanceType>Percent</ChanceType>
+    <Probability>100</Probability>
+    <Payoff>0</Payoff>
+    <ChildrenVisible>1</ChildrenVisible>
+    <DecisionFixed>0</DecisionFixed>
+    <DecisionShowCaption>1</DecisionShowCaption>
+    <DecisionShowOwner>1</DecisionShowOwner>
+    <DecisionShowDueDate>1</DecisionShowDueDate>
+    <DecisionMultiShowBudget>1</DecisionMultiShowBudget>
+    <DecisionMultiShowInvestment>1</DecisionMultiShowInvestment>
+    <DecisionShowFixed>1</DecisionShowFixed>
+    <DecisionCaption>Portfolio</DecisionCaption>
+    <DecisionOwner>Monster Inc.</DecisionOwner>
+    <DecisionDueDate>2008 730</DecisionDueDate>
+    <DecisionMultiBudget>10000000</DecisionMultiBudget>
+    <PayoffSource></PayoffSource>
+    <Branches>
+      <Branch id="6ea31f49-586e-4932-b39b-e355716dc79e">
+        <Caption>Project #1</Caption>
+        <Comment></Comment>
+        <Type>Chance</Type>
+        <ChanceType>Percent</ChanceType>
+        <Probability>100</Probability>
+        <Payoff>-1000000</Payoff>
+        <ChildrenVisible>1</ChildrenVisible>
+        <DecisionFixed>0</DecisionFixed>
+        <DecisionShowCaption>1</DecisionShowCaption>
+        <DecisionShowOwner>0</DecisionShowOwner>
+        <DecisionShowDueDate>0</DecisionShowDueDate>
+        <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+        <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+        <DecisionShowFixed>0</DecisionShowFixed>
+        <DecisionCaption>Project revenues (PVs over 4y)</DecisionCaption>
+        <DecisionOwner></DecisionOwner>
+        <DecisionDueDate></DecisionDueDate>
+        <DecisionMultiBudget>-1</DecisionMultiBudget>
+        <PayoffSource></PayoffSource>
+        <Branches>
+          <Branch id="938aff37-d4fb-4fd7-8555-4a6cdd2d10a8">
+            <Caption>Optimistic</Caption>
+            <Comment></Comment>
+            <Type>Decision</Type>
+            <ChanceType>Percent</ChanceType>
+            <Probability>50</Probability>
+            <Payoff>2100000</Payoff>
+            <ChildrenVisible>1</ChildrenVisible>
+            <DecisionFixed>0</DecisionFixed>
+            <DecisionShowCaption>0</DecisionShowCaption>
+            <DecisionShowOwner>0</DecisionShowOwner>
+            <DecisionShowDueDate>0</DecisionShowDueDate>
+            <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+            <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+            <DecisionShowFixed>0</DecisionShowFixed>
+            <DecisionCaption></DecisionCaption>
+            <DecisionOwner></DecisionOwner>
+            <DecisionDueDate></DecisionDueDate>
+            <DecisionMultiBudget>-1</DecisionMultiBudget>
+            <PayoffSource></PayoffSource>
+          </Branch>
+          <Branch id="072b0fb6-5b28-4531-991f-eda43af4578f">
+            <Caption>Pessimistic</Caption>
+            <Comment></Comment>
+            <Type>Decision</Type>
+            <ChanceType>Percent</ChanceType>
+            <Probability>50</Probability>
+            <Payoff>950000</Payoff>
+            <ChildrenVisible>1</ChildrenVisible>
+            <DecisionFixed>0</DecisionFixed>
+            <DecisionShowCaption>0</DecisionShowCaption>
+            <DecisionShowOwner>0</DecisionShowOwner>
+            <DecisionShowDueDate>0</DecisionShowDueDate>
+            <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+            <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+            <DecisionShowFixed>0</DecisionShowFixed>
+            <DecisionCaption></DecisionCaption>
+            <DecisionOwner></DecisionOwner>
+            <DecisionDueDate></DecisionDueDate>
+            <DecisionMultiBudget>-1</DecisionMultiBudget>
+            <PayoffSource></PayoffSource>
+          </Branch>
+        </Branches>
+      </Branch>
+      <Branch id="eca72efa-ac39-4cfb-9b54-aaac496eedf9">
+        <Caption>Project #2</Caption>
+        <Comment></Comment>
+        <Type>Chance</Type>
+        <ChanceType>Percent</ChanceType>
+        <Probability>100</Probability>
+        <Payoff>-1800000</Payoff>
+        <ChildrenVisible>1</ChildrenVisible>
+        <DecisionFixed>0</DecisionFixed>
+        <DecisionShowCaption>1</DecisionShowCaption>
+        <DecisionShowOwner>0</DecisionShowOwner>
+        <DecisionShowDueDate>0</DecisionShowDueDate>
+        <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+        <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+        <DecisionShowFixed>0</DecisionShowFixed>
+        <DecisionCaption>Project revenues (PVs over 4y)</DecisionCaption>
+        <DecisionOwner></DecisionOwner>
+        <DecisionDueDate></DecisionDueDate>
+        <DecisionMultiBudget>-1</DecisionMultiBudget>
+        <PayoffSource></PayoffSource>
+        <Branches>
+          <Branch id="bee55fda-5f53-4430-91c8-92e96a27b612">
+            <Caption>Optimistic</Caption>
+            <Comment></Comment>
+            <Type>Decision</Type>
+            <ChanceType>Percent</ChanceType>
+            <Probability>50</Probability>
+            <Payoff>3900000</Payoff>
+            <ChildrenVisible>1</ChildrenVisible>
+            <DecisionFixed>0</DecisionFixed>
+            <DecisionShowCaption>0</DecisionShowCaption>
+            <DecisionShowOwner>0</DecisionShowOwner>
+            <DecisionShowDueDate>0</DecisionShowDueDate>
+            <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+            <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+            <DecisionShowFixed>0</DecisionShowFixed>
+            <DecisionCaption></DecisionCaption>
+            <DecisionOwner></DecisionOwner>
+            <DecisionDueDate></DecisionDueDate>
+            <DecisionMultiBudget>-1</DecisionMultiBudget>
+            <PayoffSource></PayoffSource>
+          </Branch>
+          <Branch id="f2fc8227-6411-40b9-8fdf-db3a8ab8c90a">
+            <Caption>Pessimistic</Caption>
+            <Comment></Comment>
+            <Type>Decision</Type>
+            <ChanceType>Percent</ChanceType>
+            <Probability>50</Probability>
+            <Payoff>500000</Payoff>
+            <ChildrenVisible>1</ChildrenVisible>
+            <DecisionFixed>0</DecisionFixed>
+            <DecisionShowCaption>0</DecisionShowCaption>
+            <DecisionShowOwner>0</DecisionShowOwner>
+            <DecisionShowDueDate>0</DecisionShowDueDate>
+            <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+            <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+            <DecisionShowFixed>0</DecisionShowFixed>
+            <DecisionCaption></DecisionCaption>
+            <DecisionOwner></DecisionOwner>
+            <DecisionDueDate></DecisionDueDate>
+            <DecisionMultiBudget>-1</DecisionMultiBudget>
+            <PayoffSource></PayoffSource>
+          </Branch>
+        </Branches>
+      </Branch>
+      <Branch id="832344b5-1f91-4ba4-8899-15066013c25f">
+        <Caption>Project #3</Caption>
+        <Comment></Comment>
+        <Type>Chance</Type>
+        <ChanceType>Percent</ChanceType>
+        <Probability>0</Probability>
+        <Payoff>-5500000</Payoff>
+        <ChildrenVisible>1</ChildrenVisible>
+        <DecisionFixed>0</DecisionFixed>
+        <DecisionShowCaption>1</DecisionShowCaption>
+        <DecisionShowOwner>0</DecisionShowOwner>
+        <DecisionShowDueDate>0</DecisionShowDueDate>
+        <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+        <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+        <DecisionShowFixed>0</DecisionShowFixed>
+        <DecisionCaption>Project revenues (PVs over 4y)</DecisionCaption>
+        <DecisionOwner></DecisionOwner>
+        <DecisionDueDate></DecisionDueDate>
+        <DecisionMultiBudget>-1</DecisionMultiBudget>
+        <PayoffSource></PayoffSource>
+        <Branches>
+          <Branch id="620411b5-7300-4333-8d23-b1f14da2df9c">
+            <Caption>Optimistic</Caption>
+            <Comment></Comment>
+            <Type>Decision</Type>
+            <ChanceType>Percent</ChanceType>
+            <Probability>50</Probability>
+            <Payoff>7000000</Payoff>
+            <ChildrenVisible>1</ChildrenVisible>
+            <DecisionFixed>0</DecisionFixed>
+            <DecisionShowCaption>0</DecisionShowCaption>
+            <DecisionShowOwner>0</DecisionShowOwner>
+            <DecisionShowDueDate>0</DecisionShowDueDate>
+            <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+            <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+            <DecisionShowFixed>0</DecisionShowFixed>
+            <DecisionCaption></DecisionCaption>
+            <DecisionOwner></DecisionOwner>
+            <DecisionDueDate></DecisionDueDate>
+            <DecisionMultiBudget>-1</DecisionMultiBudget>
+            <PayoffSource></PayoffSource>
+          </Branch>
+          <Branch id="a349ef88-aa79-44ab-992a-271945d59d87">
+            <Caption>Pessimistic</Caption>
+            <Comment></Comment>
+            <Type>Decision</Type>
+            <ChanceType>Percent</ChanceType>
+            <Probability>50</Probability>
+            <Payoff>4500000</Payoff>
+            <ChildrenVisible>1</ChildrenVisible>
+            <DecisionFixed>0</DecisionFixed>
+            <DecisionShowCaption>0</DecisionShowCaption>
+            <DecisionShowOwner>0</DecisionShowOwner>
+            <DecisionShowDueDate>0</DecisionShowDueDate>
+            <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+            <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+            <DecisionShowFixed>0</DecisionShowFixed>
+            <DecisionCaption></DecisionCaption>
+            <DecisionOwner></DecisionOwner>
+            <DecisionDueDate></DecisionDueDate>
+            <DecisionMultiBudget>-1</DecisionMultiBudget>
+            <PayoffSource></PayoffSource>
+          </Branch>
+        </Branches>
+      </Branch>
+      <Branch id="8f82dc63-7f09-4a31-b2d2-3fe20e3d9519">
+        <Caption>Project #4</Caption>
+        <Comment></Comment>
+        <Type>Chance</Type>
+        <ChanceType>Percent</ChanceType>
+        <Probability>100</Probability>
+        <Payoff>-2100000</Payoff>
+        <ChildrenVisible>1</ChildrenVisible>
+        <DecisionFixed>0</DecisionFixed>
+        <DecisionShowCaption>1</DecisionShowCaption>
+        <DecisionShowOwner>0</DecisionShowOwner>
+        <DecisionShowDueDate>0</DecisionShowDueDate>
+        <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+        <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+        <DecisionShowFixed>0</DecisionShowFixed>
+        <DecisionCaption>Project revenues (PVs over 4y)</DecisionCaption>
+        <DecisionOwner></DecisionOwner>
+        <DecisionDueDate></DecisionDueDate>
+        <DecisionMultiBudget>-1</DecisionMultiBudget>
+        <PayoffSource></PayoffSource>
+        <Branches>
+          <Branch id="fbdc44c9-ef27-4fa7-9824-756da223c05c">
+            <Caption>Optimistic</Caption>
+            <Comment></Comment>
+            <Type>Decision</Type>
+            <ChanceType>Percent</ChanceType>
+            <Probability>50</Probability>
+            <Payoff>3900000</Payoff>
+            <ChildrenVisible>1</ChildrenVisible>
+            <DecisionFixed>0</DecisionFixed>
+            <DecisionShowCaption>0</DecisionShowCaption>
+            <DecisionShowOwner>0</DecisionShowOwner>
+            <DecisionShowDueDate>0</DecisionShowDueDate>
+            <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+            <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+            <DecisionShowFixed>0</DecisionShowFixed>
+            <DecisionCaption></DecisionCaption>
+            <DecisionOwner></DecisionOwner>
+            <DecisionDueDate></DecisionDueDate>
+            <DecisionMultiBudget>-1</DecisionMultiBudget>
+            <PayoffSource></PayoffSource>
+          </Branch>
+          <Branch id="2345686a-6d3c-4a6a-af97-185a0165cc4c">
+            <Caption>Pessimistic</Caption>
+            <Comment></Comment>
+            <Type>Decision</Type>
+            <ChanceType>Percent</ChanceType>
+            <Probability>50</Probability>
+            <Payoff>1850000</Payoff>
+            <ChildrenVisible>1</ChildrenVisible>
+            <DecisionFixed>0</DecisionFixed>
+            <DecisionShowCaption>0</DecisionShowCaption>
+            <DecisionShowOwner>0</DecisionShowOwner>
+            <DecisionShowDueDate>0</DecisionShowDueDate>
+            <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+            <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+            <DecisionShowFixed>0</DecisionShowFixed>
+            <DecisionCaption></DecisionCaption>
+            <DecisionOwner></DecisionOwner>
+            <DecisionDueDate></DecisionDueDate>
+            <DecisionMultiBudget>-1</DecisionMultiBudget>
+            <PayoffSource></PayoffSource>
+          </Branch>
+        </Branches>
+      </Branch>
+      <Branch id="51466c09-ec3f-4233-8472-fd3456fbe10a">
+        <Caption>Project #5</Caption>
+        <Comment></Comment>
+        <Type>Chance</Type>
+        <ChanceType>Percent</ChanceType>
+        <Probability>0</Probability>
+        <Payoff>-1700000</Payoff>
+        <ChildrenVisible>1</ChildrenVisible>
+        <DecisionFixed>0</DecisionFixed>
+        <DecisionShowCaption>1</DecisionShowCaption>
+        <DecisionShowOwner>0</DecisionShowOwner>
+        <DecisionShowDueDate>0</DecisionShowDueDate>
+        <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+        <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+        <DecisionShowFixed>0</DecisionShowFixed>
+        <DecisionCaption>Project revenues (PVs over 4y)</DecisionCaption>
+        <DecisionOwner></DecisionOwner>
+        <DecisionDueDate></DecisionDueDate>
+        <DecisionMultiBudget>-1</DecisionMultiBudget>
+        <PayoffSource></PayoffSource>
+        <Branches>
+          <Branch id="b55c22c1-d60e-46a3-942a-7e9f27813250">
+            <Caption>Optimistic</Caption>
+            <Comment></Comment>
+            <Type>Decision</Type>
+            <ChanceType>Percent</ChanceType>
+            <Probability>50</Probability>
+            <Payoff>2500000</Payoff>
+            <ChildrenVisible>1</ChildrenVisible>
+            <DecisionFixed>0</DecisionFixed>
+            <DecisionShowCaption>0</DecisionShowCaption>
+            <DecisionShowOwner>0</DecisionShowOwner>
+            <DecisionShowDueDate>0</DecisionShowDueDate>
+            <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+            <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+            <DecisionShowFixed>0</DecisionShowFixed>
+            <DecisionCaption></DecisionCaption>
+            <DecisionOwner></DecisionOwner>
+            <DecisionDueDate></DecisionDueDate>
+            <DecisionMultiBudget>-1</DecisionMultiBudget>
+            <PayoffSource></PayoffSource>
+          </Branch>
+          <Branch id="e53caa30-df18-4864-9c67-59199f4b1944">
+            <Caption>Pessimistic</Caption>
+            <Comment></Comment>
+            <Type>Decision</Type>
+            <ChanceType>Percent</ChanceType>
+            <Probability>50</Probability>
+            <Payoff>650000</Payoff>
+            <ChildrenVisible>1</ChildrenVisible>
+            <DecisionFixed>0</DecisionFixed>
+            <DecisionShowCaption>0</DecisionShowCaption>
+            <DecisionShowOwner>0</DecisionShowOwner>
+            <DecisionShowDueDate>0</DecisionShowDueDate>
+            <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+            <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+            <DecisionShowFixed>0</DecisionShowFixed>
+            <DecisionCaption></DecisionCaption>
+            <DecisionOwner></DecisionOwner>
+            <DecisionDueDate></DecisionDueDate>
+            <DecisionMultiBudget>-1</DecisionMultiBudget>
+            <PayoffSource></PayoffSource>
+          </Branch>
+        </Branches>
+      </Branch>
+      <Branch id="ff149fb6-2a7c-4776-9a0d-edd7251b4cc4">
+        <Caption>Project #6</Caption>
+        <Comment></Comment>
+        <Type>Chance</Type>
+        <ChanceType>Percent</ChanceType>
+        <Probability>100</Probability>
+        <Payoff>-1600000</Payoff>
+        <ChildrenVisible>1</ChildrenVisible>
+        <DecisionFixed>0</DecisionFixed>
+        <DecisionShowCaption>1</DecisionShowCaption>
+        <DecisionShowOwner>0</DecisionShowOwner>
+        <DecisionShowDueDate>0</DecisionShowDueDate>
+        <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+        <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+        <DecisionShowFixed>0</DecisionShowFixed>
+        <DecisionCaption>Project revenues (PVs over 4y)</DecisionCaption>
+        <DecisionOwner></DecisionOwner>
+        <DecisionDueDate></DecisionDueDate>
+        <DecisionMultiBudget>-1</DecisionMultiBudget>
+        <PayoffSource></PayoffSource>
+        <Branches>
+          <Branch id="89575b91-0551-4fb4-a7e3-ddda7b13b12d">
+            <Caption>Optimistic</Caption>
+            <Comment></Comment>
+            <Type>Decision</Type>
+            <ChanceType>Percent</ChanceType>
+            <Probability>50</Probability>
+            <Payoff>4100000</Payoff>
+            <ChildrenVisible>1</ChildrenVisible>
+            <DecisionFixed>0</DecisionFixed>
+            <DecisionShowCaption>0</DecisionShowCaption>
+            <DecisionShowOwner>0</DecisionShowOwner>
+            <DecisionShowDueDate>0</DecisionShowDueDate>
+            <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+            <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+            <DecisionShowFixed>0</DecisionShowFixed>
+            <DecisionCaption></DecisionCaption>
+            <DecisionOwner></DecisionOwner>
+            <DecisionDueDate></DecisionDueDate>
+            <DecisionMultiBudget>-1</DecisionMultiBudget>
+            <PayoffSource></PayoffSource>
+          </Branch>
+          <Branch id="2fd8e671-2ec3-4329-94cf-b6f7391ef128">
+            <Caption>Pessimistic</Caption>
+            <Comment></Comment>
+            <Type>Decision</Type>
+            <ChanceType>Percent</ChanceType>
+            <Probability>50</Probability>
+            <Payoff>1050000</Payoff>
+            <ChildrenVisible>1</ChildrenVisible>
+            <DecisionFixed>0</DecisionFixed>
+            <DecisionShowCaption>0</DecisionShowCaption>
+            <DecisionShowOwner>0</DecisionShowOwner>
+            <DecisionShowDueDate>0</DecisionShowDueDate>
+            <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+            <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+            <DecisionShowFixed>0</DecisionShowFixed>
+            <DecisionCaption></DecisionCaption>
+            <DecisionOwner></DecisionOwner>
+            <DecisionDueDate></DecisionDueDate>
+            <DecisionMultiBudget>-1</DecisionMultiBudget>
+            <PayoffSource></PayoffSource>
+          </Branch>
+        </Branches>
+      </Branch>
+      <Branch id="f048c72a-4818-44cf-81eb-9ebfcd56b8a5">
+        <Caption>Project #7</Caption>
+        <Comment></Comment>
+        <Type>Chance</Type>
+        <ChanceType>Percent</ChanceType>
+        <Probability>100</Probability>
+        <Payoff>-550000</Payoff>
+        <ChildrenVisible>1</ChildrenVisible>
+        <DecisionFixed>0</DecisionFixed>
+        <DecisionShowCaption>1</DecisionShowCaption>
+        <DecisionShowOwner>0</DecisionShowOwner>
+        <DecisionShowDueDate>0</DecisionShowDueDate>
+        <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+        <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+        <DecisionShowFixed>0</DecisionShowFixed>
+        <DecisionCaption>Project revenues (PVs over 4y)</DecisionCaption>
+        <DecisionOwner></DecisionOwner>
+        <DecisionDueDate></DecisionDueDate>
+        <DecisionMultiBudget>-1</DecisionMultiBudget>
+        <PayoffSource></PayoffSource>
+        <Branches>
+          <Branch id="cffab768-b555-4a7c-ae24-ddbd30d1265a">
+            <Caption>Optimistic</Caption>
+            <Comment></Comment>
+            <Type>Decision</Type>
+            <ChanceType>Percent</ChanceType>
+            <Probability>50</Probability>
+            <Payoff>1000000</Payoff>
+            <ChildrenVisible>1</ChildrenVisible>
+            <DecisionFixed>0</DecisionFixed>
+            <DecisionShowCaption>0</DecisionShowCaption>
+            <DecisionShowOwner>0</DecisionShowOwner>
+            <DecisionShowDueDate>0</DecisionShowDueDate>
+            <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+            <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+            <DecisionShowFixed>0</DecisionShowFixed>
+            <DecisionCaption></DecisionCaption>
+            <DecisionOwner></DecisionOwner>
+            <DecisionDueDate></DecisionDueDate>
+            <DecisionMultiBudget>-1</DecisionMultiBudget>
+            <PayoffSource></PayoffSource>
+          </Branch>
+          <Branch id="60fa3ae3-2cde-4990-b537-2ebf117dc670">
+            <Caption>Pessimistic</Caption>
+            <Comment></Comment>
+            <Type>Decision</Type>
+            <ChanceType>Percent</ChanceType>
+            <Probability>50</Probability>
+            <Payoff>400000</Payoff>
+            <ChildrenVisible>1</ChildrenVisible>
+            <DecisionFixed>0</DecisionFixed>
+            <DecisionShowCaption>0</DecisionShowCaption>
+            <DecisionShowOwner>0</DecisionShowOwner>
+            <DecisionShowDueDate>0</DecisionShowDueDate>
+            <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+            <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+            <DecisionShowFixed>0</DecisionShowFixed>
+            <DecisionCaption></DecisionCaption>
+            <DecisionOwner></DecisionOwner>
+            <DecisionDueDate></DecisionDueDate>
+            <DecisionMultiBudget>-1</DecisionMultiBudget>
+            <PayoffSource></PayoffSource>
+          </Branch>
+        </Branches>
+      </Branch>
+    </Branches>
+  </Branch>
+</Tree>
