@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tree><!--This Decision Tree File has been created with Insight Tree, available from http://www.visionarytools.com-->  <OutlineCodes>1</OutlineCodes>
+  <StatusDate></StatusDate>
+  <ShowPayoff>1</ShowPayoff>
+  <StyleStates>
+    <State ID="InTakenPath">
+      <Style ID="">
+        <Settings>
+          <BackgroundColor>0000FFFF</BackgroundColor>
+          <LineWidth>6</LineWidth>
+          <LineColor>00008000</LineColor>
+          <FontName>Courier New</FontName>
+          <FontSize>8</FontSize>
+          <FontBold>0</FontBold>
+          <FontItalic>0</FontItalic>
+          <FontUnderline>0</FontUnderline>
+          <FontStrikeOut>0</FontStrikeOut>
+          <FontColor>00008000</FontColor>
+          <FillMode>Gradient</FillMode>
+          <Shadow>Soft</Shadow>
+        </Settings>
+        <Styles>
+          <Style ID="Symbols">
+            <Settings>
+              <FontColor>00FF0000</FontColor>
+            </Settings>
+            <Styles>
+              <Style ID="Symbols.Decision">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.MultiDecision">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.Chance">
+                <Settings>
+                  <FontBold>1</FontBold>
+                  <FontColor>00008000</FontColor>
+                </Settings>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.Terminator">
+                <Settings>
+                  <FontColor>00800000</FontColor>
+                </Settings>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+          <Style ID="SymbolAttributes">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="OptionDescriptors">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="ConnectorLines">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="ChanceOptionProbabilities">
+            <Settings>
+              <FontBold>1</FontBold>
+            </Settings>
+            <Styles/>
+          </Style>
+          <Style ID="DecisionOptionsTaken">
+            <Settings/>
+            <Styles>
+              <Style ID="DecisionOptionsTaken.Yes">
+                <Settings>
+                  <LineColor>00000000</LineColor>
+                  <FontBold>1</FontBold>
+                </Settings>
+                <Styles/>
+              </Style>
+              <Style ID="DecisionOptionsTaken.No">
+                <Settings>
+                  <FontBold>1</FontBold>
+                </Settings>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+          <Style ID="OptionPayoff">
+            <Settings/>
+            <Styles>
+              <Style ID="OptionPayoff.Positive">
+                <Settings>
+                  <FontBold>1</FontBold>
+                </Settings>
+                <Styles/>
+              </Style>
+              <Style ID="OptionPayoff.Negative">
+                <Settings>
+                  <FontBold>1</FontBold>
+                  <FontColor>000000FF</FontColor>
+                </Settings>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+        </Styles>
+      </Style>
+    </State>
+    <State ID="NotInTakenPath">
+      <Style ID="">
+        <Settings>
+          <BackgroundColor>00008000</BackgroundColor>
+          <LineWidth>2</LineWidth>
+          <LineColor>00696934</LineColor>
+          <FontColor>0000FFFF</FontColor>
+          <FillMode>Solid</FillMode>
+        </Settings>
+        <Styles>
+          <Style ID="Symbols">
+            <Settings/>
+            <Styles>
+              <Style ID="Symbols.Decision">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.MultiDecision">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.Chance">
+                <Settings>
+                  <FontBold>0</FontBold>
+                  <FontColor>00008000</FontColor>
+                </Settings>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.Terminator">
+                <Settings>
+                  <FontColor>00008000</FontColor>
+                </Settings>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+          <Style ID="SymbolAttributes">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="OptionDescriptors">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="ConnectorLines">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="ChanceOptionProbabilities">
+            <Settings>
+              <FontBold>0</FontBold>
+              <FontColor>00008000</FontColor>
+            </Settings>
+            <Styles/>
+          </Style>
+          <Style ID="DecisionOptionsTaken">
+            <Settings/>
+            <Styles>
+              <Style ID="DecisionOptionsTaken.Yes">
+                <Settings>
+                  <FontBold>0</FontBold>
+                  <FontColor>00008000</FontColor>
+                </Settings>
+                <Styles/>
+              </Style>
+              <Style ID="DecisionOptionsTaken.No">
+                <Settings>
+                  <FontColor>00008000</FontColor>
+                </Settings>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+          <Style ID="OptionPayoff">
+            <Settings/>
+            <Styles>
+              <Style ID="OptionPayoff.Positive">
+                <Settings>
+                  <FontBold>0</FontBold>
+                  <FontColor>00008000</FontColor>
+                </Settings>
+                <Styles/>
+              </Style>
+              <Style ID="OptionPayoff.Negative">
+                <Settings>
+                  <FontBold>0</FontBold>
+                  <FontColor>000000FF</FontColor>
+                </Settings>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+        </Styles>
+      </Style>
+    </State>
+    <State ID="CloneInTakenPath">
+      <Style ID="">
+        <Settings>
+          <FontItalic>1</FontItalic>
+        </Settings>
+        <Styles>
+          <Style ID="Symbols">
+            <Settings/>
+            <Styles>
+              <Style ID="Symbols.Decision">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.MultiDecision">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.Chance">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.Terminator">
+                <Settings/>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+          <Style ID="SymbolAttributes">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="OptionDescriptors">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="ConnectorLines">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="ChanceOptionProbabilities">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="DecisionOptionsTaken">
+            <Settings/>
+            <Styles>
+              <Style ID="DecisionOptionsTaken.Yes">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="DecisionOptionsTaken.No">
+                <Settings/>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+          <Style ID="OptionPayoff">
+            <Settings/>
+            <Styles>
+              <Style ID="OptionPayoff.Positive">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="OptionPayoff.Negative">
+                <Settings/>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+        </Styles>
+      </Style>
+    </State>
+    <State ID="CloneNotInTakenPath">
+      <Style ID="">
+        <Settings/>
+        <Styles>
+          <Style ID="Symbols">
+            <Settings/>
+            <Styles>
+              <Style ID="Symbols.Decision">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.MultiDecision">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.Chance">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.Terminator">
+                <Settings/>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+          <Style ID="SymbolAttributes">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="OptionDescriptors">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="ConnectorLines">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="ChanceOptionProbabilities">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="DecisionOptionsTaken">
+            <Settings/>
+            <Styles>
+              <Style ID="DecisionOptionsTaken.Yes">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="DecisionOptionsTaken.No">
+                <Settings/>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+          <Style ID="OptionPayoff">
+            <Settings/>
+            <Styles>
+              <Style ID="OptionPayoff.Positive">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="OptionPayoff.Negative">
+                <Settings/>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+        </Styles>
+      </Style>
+    </State>
+  </StyleStates>
+  <CurrencyDecimals>0</CurrencyDecimals>
+  <CurrencyPosFormat>0</CurrencyPosFormat>
+  <CurrencyNegFormat>1</CurrencyNegFormat>
+  <CurrencySymbol>$</CurrencySymbol>
+  <Branch id="c016b2b0-978b-486a-8d84-897ea75a1ce2">
+    <Caption>Buy new equipment?</Caption>
+    <Comment>Replace with your numbers and add or delete branches as appropriate.</Comment>
+    <Type>Decision</Type>
+    <ChanceType>Percent</ChanceType>
+    <Probability>100</Probability>
+    <Payoff>0</Payoff>
+    <ChildrenVisible>1</ChildrenVisible>
+    <DecisionFixed>0</DecisionFixed>
+    <DecisionShowCaption>0</DecisionShowCaption>
+    <DecisionShowOwner>0</DecisionShowOwner>
+    <DecisionShowDueDate>0</DecisionShowDueDate>
+    <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+    <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+    <DecisionShowFixed>0</DecisionShowFixed>
+    <DecisionCaption></DecisionCaption>
+    <DecisionOwner></DecisionOwner>
+    <DecisionDueDate></DecisionDueDate>
+    <DecisionMultiBudget>-1</DecisionMultiBudget>
+    <PayoffSource></PayoffSource>
+    <Branches>
+      <Branch id="a6d74c98-716f-4a36-a29a-56548a44b22a">
+        <Caption>New equipment would be good</Caption>
+        <Comment></Comment>
+        <Type>Chance</Type>
+        <ChanceType>AnySum</ChanceType>
+        <Probability>0</Probability>
+        <Payoff>-1000000</Payoff>
+        <ChildrenVisible>1</ChildrenVisible>
+        <DecisionFixed>0</DecisionFixed>
+        <DecisionShowCaption>0</DecisionShowCaption>
+        <DecisionShowOwner>0</DecisionShowOwner>
+        <DecisionShowDueDate>0</DecisionShowDueDate>
+        <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+        <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+        <DecisionShowFixed>0</DecisionShowFixed>
+        <DecisionCaption></DecisionCaption>
+        <DecisionOwner></DecisionOwner>
+        <DecisionDueDate></DecisionDueDate>
+        <DecisionMultiBudget>-1</DecisionMultiBudget>
+        <PayoffSource></PayoffSource>
+        <Branches>
+          <Branch id="608b0e8a-edb4-4cef-b262-d95d961e09cd">
+            <Caption>Opt. costs (proj. dur.)</Caption>
+            <Comment>Costs from project initiation through handover to production.</Comment>
+            <Type>Chance</Type>
+            <ChanceType>AnySum</ChanceType>
+            <Probability>1</Probability>
+            <Payoff>-100000</Payoff>
+            <ChildrenVisible>1</ChildrenVisible>
+            <DecisionFixed>0</DecisionFixed>
+            <DecisionShowCaption>0</DecisionShowCaption>
+            <DecisionShowOwner>0</DecisionShowOwner>
+            <DecisionShowDueDate>0</DecisionShowDueDate>
+            <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+            <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+            <DecisionShowFixed>0</DecisionShowFixed>
+            <DecisionCaption></DecisionCaption>
+            <DecisionOwner></DecisionOwner>
+            <DecisionDueDate></DecisionDueDate>
+            <DecisionMultiBudget>-1</DecisionMultiBudget>
+            <PayoffSource></PayoffSource>
+            <Branches>
+              <Branch id="51ef062f-fd4b-46d8-92cf-ce1d1a16ed2b">
+                <Caption>Opt. revenues from 3-ears operation</Caption>
+                <Comment></Comment>
+                <Type>Decision</Type>
+                <ChanceType>Percent</ChanceType>
+                <Probability>1</Probability>
+                <Payoff>2600000</Payoff>
+                <ChildrenVisible>1</ChildrenVisible>
+                <DecisionFixed>0</DecisionFixed>
+                <DecisionShowCaption>0</DecisionShowCaption>
+                <DecisionShowOwner>0</DecisionShowOwner>
+                <DecisionShowDueDate>0</DecisionShowDueDate>
+                <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+                <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+                <DecisionShowFixed>0</DecisionShowFixed>
+                <DecisionCaption></DecisionCaption>
+                <DecisionOwner></DecisionOwner>
+                <DecisionDueDate></DecisionDueDate>
+                <DecisionMultiBudget>-1</DecisionMultiBudget>
+                <PayoffSource></PayoffSource>
+              </Branch>
+              <Branch id="10f0d72e-5521-47f8-b1cd-04e848ed3273">
+                <Caption>Most likeley revenues from 3-ears operation </Caption>
+                <Comment></Comment>
+                <Type>Decision</Type>
+                <ChanceType>Percent</ChanceType>
+                <Probability>4</Probability>
+                <Payoff>2100000</Payoff>
+                <ChildrenVisible>1</ChildrenVisible>
+                <DecisionFixed>0</DecisionFixed>
+                <DecisionShowCaption>0</DecisionShowCaption>
+                <DecisionShowOwner>0</DecisionShowOwner>
+                <DecisionShowDueDate>0</DecisionShowDueDate>
+                <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+                <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+                <DecisionShowFixed>0</DecisionShowFixed>
+                <DecisionCaption></DecisionCaption>
+                <DecisionOwner></DecisionOwner>
+                <DecisionDueDate></DecisionDueDate>
+                <DecisionMultiBudget>-1</DecisionMultiBudget>
+                <PayoffSource></PayoffSource>
+              </Branch>
+              <Branch id="262d7791-fcdd-479b-abfc-cdd50b9ea13a">
+                <Caption>Pess. revenues from 3-ears operation</Caption>
+                <Comment></Comment>
+                <Type>Decision</Type>
+                <ChanceType>Percent</ChanceType>
+                <Probability>1</Probability>
+                <Payoff>1200000</Payoff>
+                <ChildrenVisible>1</ChildrenVisible>
+                <DecisionFixed>0</DecisionFixed>
+                <DecisionShowCaption>0</DecisionShowCaption>
+                <DecisionShowOwner>0</DecisionShowOwner>
+                <DecisionShowDueDate>0</DecisionShowDueDate>
+                <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+                <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+                <DecisionShowFixed>0</DecisionShowFixed>
+                <DecisionCaption></DecisionCaption>
+                <DecisionOwner></DecisionOwner>
+                <DecisionDueDate></DecisionDueDate>
+                <DecisionMultiBudget>-1</DecisionMultiBudget>
+                <PayoffSource></PayoffSource>
+              </Branch>
+            </Branches>
+          </Branch>
+          <Branch id="ad9be8b2-eb7f-4dbc-a151-639e7654af94" ref="608b0e8a-edb4-4cef-b262-d95d961e09cd">
+            <Caption>Pess. costs (proj. dur.)</Caption>
+            <Comment>Costs from project initiation through handover to production.</Comment>
+            <Type>Chance</Type>
+            <ChanceType>AnySum</ChanceType>
+            <Probability>1</Probability>
+            <Payoff>-300000</Payoff>
+            <ChildrenVisible>1</ChildrenVisible>
+            <DecisionFixed>0</DecisionFixed>
+            <DecisionShowCaption>0</DecisionShowCaption>
+            <DecisionShowOwner>0</DecisionShowOwner>
+            <DecisionShowDueDate>0</DecisionShowDueDate>
+            <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+            <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+            <DecisionShowFixed>0</DecisionShowFixed>
+            <DecisionCaption></DecisionCaption>
+            <DecisionOwner></DecisionOwner>
+            <DecisionDueDate></DecisionDueDate>
+            <DecisionMultiBudget>-1</DecisionMultiBudget>
+            <PayoffSource></PayoffSource>
+          </Branch>
+        </Branches>
+      </Branch>
+      <Branch id="7cd79750-33df-4ab2-a136-4fb8bff69dcd">
+        <Caption>The old equipment is just fine</Caption>
+        <Comment></Comment>
+        <Type>Chance</Type>
+        <ChanceType>Percent</ChanceType>
+        <Probability>0</Probability>
+        <Payoff>0</Payoff>
+        <ChildrenVisible>1</ChildrenVisible>
+        <DecisionFixed>0</DecisionFixed>
+        <DecisionShowCaption>0</DecisionShowCaption>
+        <DecisionShowOwner>0</DecisionShowOwner>
+        <DecisionShowDueDate>0</DecisionShowDueDate>
+        <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+        <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+        <DecisionShowFixed>0</DecisionShowFixed>
+        <DecisionCaption></DecisionCaption>
+        <DecisionOwner></DecisionOwner>
+        <DecisionDueDate></DecisionDueDate>
+        <DecisionMultiBudget>-1</DecisionMultiBudget>
+        <PayoffSource></PayoffSource>
+        <Branches>
+          <Branch id="e2b2e21f-5c88-401b-bfc6-c94be9b15b09">
+            <Caption>Opt. costs (proj. dur.)</Caption>
+            <Comment>Costs from project initiation through handover to production.</Comment>
+            <Type>Chance</Type>
+            <ChanceType>AnySum</ChanceType>
+            <Probability>35</Probability>
+            <Payoff>-240000</Payoff>
+            <ChildrenVisible>1</ChildrenVisible>
+            <DecisionFixed>0</DecisionFixed>
+            <DecisionShowCaption>0</DecisionShowCaption>
+            <DecisionShowOwner>0</DecisionShowOwner>
+            <DecisionShowDueDate>0</DecisionShowDueDate>
+            <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+            <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+            <DecisionShowFixed>0</DecisionShowFixed>
+            <DecisionCaption></DecisionCaption>
+            <DecisionOwner></DecisionOwner>
+            <DecisionDueDate></DecisionDueDate>
+            <DecisionMultiBudget>-1</DecisionMultiBudget>
+            <PayoffSource></PayoffSource>
+            <Branches>
+              <Branch id="b20bc8a5-9a41-4ccf-810a-bca8310bb1c0">
+                <Caption>Opt. revenues from 3-ears operation</Caption>
+                <Comment></Comment>
+                <Type>Decision</Type>
+                <ChanceType>Percent</ChanceType>
+                <Probability>1</Probability>
+                <Payoff>2200000</Payoff>
+                <ChildrenVisible>1</ChildrenVisible>
+                <DecisionFixed>0</DecisionFixed>
+                <DecisionShowCaption>0</DecisionShowCaption>
+                <DecisionShowOwner>0</DecisionShowOwner>
+                <DecisionShowDueDate>0</DecisionShowDueDate>
+                <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+                <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+                <DecisionShowFixed>0</DecisionShowFixed>
+                <DecisionCaption></DecisionCaption>
+                <DecisionOwner></DecisionOwner>
+                <DecisionDueDate></DecisionDueDate>
+                <DecisionMultiBudget>-1</DecisionMultiBudget>
+                <PayoffSource></PayoffSource>
+              </Branch>
+              <Branch id="7ad7808d-2d7d-4075-a211-802455cbe7c5">
+                <Caption>Most likeley revenues from 3-ears operation </Caption>
+                <Comment></Comment>
+                <Type>Decision</Type>
+                <ChanceType>Percent</ChanceType>
+                <Probability>4</Probability>
+                <Payoff>1500000</Payoff>
+                <ChildrenVisible>1</ChildrenVisible>
+                <DecisionFixed>0</DecisionFixed>
+                <DecisionShowCaption>0</DecisionShowCaption>
+                <DecisionShowOwner>0</DecisionShowOwner>
+                <DecisionShowDueDate>0</DecisionShowDueDate>
+                <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+                <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+                <DecisionShowFixed>0</DecisionShowFixed>
+                <DecisionCaption></DecisionCaption>
+                <DecisionOwner></DecisionOwner>
+                <DecisionDueDate></DecisionDueDate>
+                <DecisionMultiBudget>-1</DecisionMultiBudget>
+                <PayoffSource></PayoffSource>
+              </Branch>
+              <Branch id="435528fe-dc56-4f5b-8c46-74c644ece5b7">
+                <Caption>Pess. revenues from 3-ears operation</Caption>
+                <Comment></Comment>
+                <Type>Decision</Type>
+                <ChanceType>Percent</ChanceType>
+                <Probability>1</Probability>
+                <Payoff>1000000</Payoff>
+                <ChildrenVisible>1</ChildrenVisible>
+                <DecisionFixed>0</DecisionFixed>
+                <DecisionShowCaption>0</DecisionShowCaption>
+                <DecisionShowOwner>0</DecisionShowOwner>
+                <DecisionShowDueDate>0</DecisionShowDueDate>
+                <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+                <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+                <DecisionShowFixed>0</DecisionShowFixed>
+                <DecisionCaption></DecisionCaption>
+                <DecisionOwner></DecisionOwner>
+                <DecisionDueDate></DecisionDueDate>
+                <DecisionMultiBudget>-1</DecisionMultiBudget>
+                <PayoffSource></PayoffSource>
+              </Branch>
+            </Branches>
+          </Branch>
+          <Branch id="e778bd7a-7ae1-4b54-a842-7e4d59a3a112" ref="e2b2e21f-5c88-401b-bfc6-c94be9b15b09">
+            <Caption>Pess. costs (proj. dur.)</Caption>
+            <Comment>Costs from project initiation through handover to production.</Comment>
+            <Type>Chance</Type>
+            <ChanceType>AnySum</ChanceType>
+            <Probability>65</Probability>
+            <Payoff>-420000</Payoff>
+            <ChildrenVisible>1</ChildrenVisible>
+            <DecisionFixed>0</DecisionFixed>
+            <DecisionShowCaption>0</DecisionShowCaption>
+            <DecisionShowOwner>0</DecisionShowOwner>
+            <DecisionShowDueDate>0</DecisionShowDueDate>
+            <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+            <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+            <DecisionShowFixed>0</DecisionShowFixed>
+            <DecisionCaption></DecisionCaption>
+            <DecisionOwner></DecisionOwner>
+            <DecisionDueDate></DecisionDueDate>
+            <DecisionMultiBudget>-1</DecisionMultiBudget>
+            <PayoffSource></PayoffSource>
+          </Branch>
+        </Branches>
+      </Branch>
+      <Branch id="c8284e5f-d0cd-4395-9504-7afc128129bb">
+        <Caption>Sell old equipment, lease instead</Caption>
+        <Comment></Comment>
+        <Type>Chance</Type>
+        <ChanceType>Percent</ChanceType>
+        <Probability>100</Probability>
+        <Payoff>0</Payoff>
+        <ChildrenVisible>1</ChildrenVisible>
+        <DecisionFixed>0</DecisionFixed>
+        <DecisionShowCaption>0</DecisionShowCaption>
+        <DecisionShowOwner>0</DecisionShowOwner>
+        <DecisionShowDueDate>0</DecisionShowDueDate>
+        <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+        <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+        <DecisionShowFixed>0</DecisionShowFixed>
+        <DecisionCaption></DecisionCaption>
+        <DecisionOwner></DecisionOwner>
+        <DecisionDueDate></DecisionDueDate>
+        <DecisionMultiBudget>-1</DecisionMultiBudget>
+        <PayoffSource></PayoffSource>
+        <Branches>
+          <Branch id="b945f925-bca7-4fc6-a132-964949b53061">
+            <Caption>Opt. price achieved for old plant</Caption>
+            <Comment></Comment>
+            <Type>Chance</Type>
+            <ChanceType>AnySum</ChanceType>
+            <Probability>35</Probability>
+            <Payoff>52000</Payoff>
+            <ChildrenVisible>1</ChildrenVisible>
+            <DecisionFixed>0</DecisionFixed>
+            <DecisionShowCaption>0</DecisionShowCaption>
+            <DecisionShowOwner>0</DecisionShowOwner>
+            <DecisionShowDueDate>0</DecisionShowDueDate>
+            <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+            <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+            <DecisionShowFixed>0</DecisionShowFixed>
+            <DecisionCaption></DecisionCaption>
+            <DecisionOwner></DecisionOwner>
+            <DecisionDueDate></DecisionDueDate>
+            <DecisionMultiBudget>-1</DecisionMultiBudget>
+            <PayoffSource></PayoffSource>
+            <Branches>
+              <Branch id="b533b741-8458-4d93-a2df-9f951eabfe7b">
+                <Caption>Opt. net revenues from 3-ears operation</Caption>
+                <Comment>Net revenues: See "Advanced payoff" calculation.</Comment>
+                <Type>Decision</Type>
+                <ChanceType>Percent</ChanceType>
+                <Probability>1</Probability>
+                <Payoff>1400000</Payoff>
+                <ChildrenVisible>1</ChildrenVisible>
+                <DecisionFixed>0</DecisionFixed>
+                <DecisionShowCaption>0</DecisionShowCaption>
+                <DecisionShowOwner>0</DecisionShowOwner>
+                <DecisionShowDueDate>0</DecisionShowDueDate>
+                <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+                <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+                <DecisionShowFixed>0</DecisionShowFixed>
+                <DecisionCaption></DecisionCaption>
+                <DecisionOwner></DecisionOwner>
+                <DecisionDueDate></DecisionDueDate>
+                <DecisionMultiBudget>-1</DecisionMultiBudget>
+                <PayoffSource>Income-Cost: 2400000:1000000</PayoffSource>
+              </Branch>
+              <Branch id="9296e647-99d0-4766-8980-730a9f8b40cc">
+                <Caption>Pess. net revenues from 3-ears operation</Caption>
+                <Comment>Net revenues: See "Advanced payoff" calculation.</Comment>
+                <Type>Decision</Type>
+                <ChanceType>Percent</ChanceType>
+                <Probability>1</Probability>
+                <Payoff>-200000</Payoff>
+                <ChildrenVisible>1</ChildrenVisible>
+                <DecisionFixed>0</DecisionFixed>
+                <DecisionShowCaption>0</DecisionShowCaption>
+                <DecisionShowOwner>0</DecisionShowOwner>
+                <DecisionShowDueDate>0</DecisionShowDueDate>
+                <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+                <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+                <DecisionShowFixed>0</DecisionShowFixed>
+                <DecisionCaption></DecisionCaption>
+                <DecisionOwner></DecisionOwner>
+                <DecisionDueDate></DecisionDueDate>
+                <DecisionMultiBudget>-1</DecisionMultiBudget>
+                <PayoffSource>Income-Cost: 800000:1000000</PayoffSource>
+              </Branch>
+            </Branches>
+          </Branch>
+          <Branch id="18fc0b68-dea8-40b9-9079-448485cd3bef" ref="b945f925-bca7-4fc6-a132-964949b53061">
+            <Caption>Pess. price achieved for old plant</Caption>
+            <Comment></Comment>
+            <Type>Chance</Type>
+            <ChanceType>AnySum</ChanceType>
+            <Probability>65</Probability>
+            <Payoff>25000</Payoff>
+            <ChildrenVisible>1</ChildrenVisible>
+            <DecisionFixed>0</DecisionFixed>
+            <DecisionShowCaption>0</DecisionShowCaption>
+            <DecisionShowOwner>0</DecisionShowOwner>
+            <DecisionShowDueDate>0</DecisionShowDueDate>
+            <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+            <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+            <DecisionShowFixed>0</DecisionShowFixed>
+            <DecisionCaption></DecisionCaption>
+            <DecisionOwner></DecisionOwner>
+            <DecisionDueDate></DecisionDueDate>
+            <DecisionMultiBudget>-1</DecisionMultiBudget>
+            <PayoffSource></PayoffSource>
+          </Branch>
+        </Branches>
+      </Branch>
+    </Branches>
+  </Branch>
+</Tree>

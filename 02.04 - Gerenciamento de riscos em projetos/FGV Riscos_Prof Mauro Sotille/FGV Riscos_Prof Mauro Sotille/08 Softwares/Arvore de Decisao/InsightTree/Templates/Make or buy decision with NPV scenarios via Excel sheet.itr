@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tree><!--This Decision Tree File has been created with Insight Tree, available from http://www.visionarytools.com-->  <OutlineCodes>1</OutlineCodes>
+  <StatusDate></StatusDate>
+  <ShowPayoff>1</ShowPayoff>
+  <StyleStates>
+    <State ID="InTakenPath">
+      <Style ID="">
+        <Settings>
+          <BackgroundColor>00FFFFFF</BackgroundColor>
+          <LineWidth>2</LineWidth>
+          <LineColor>00000000</LineColor>
+          <FontName>Verdana</FontName>
+          <FontSize>8</FontSize>
+          <FontBold>0</FontBold>
+          <FontItalic>0</FontItalic>
+          <FontUnderline>0</FontUnderline>
+          <FontStrikeOut>0</FontStrikeOut>
+          <FontColor>00000000</FontColor>
+          <FillMode>Gradient</FillMode>
+          <Shadow>Soft</Shadow>
+        </Settings>
+        <Styles>
+          <Style ID="Symbols">
+            <Settings>
+              <FontColor>00FF0000</FontColor>
+            </Settings>
+            <Styles>
+              <Style ID="Symbols.Decision">
+                <Settings>
+                  <BackgroundColor>00000080</BackgroundColor>
+                </Settings>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.MultiDecision">
+                <Settings>
+                  <BackgroundColor>00008080</BackgroundColor>
+                </Settings>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.Chance">
+                <Settings>
+                  <BackgroundColor>00007FFF</BackgroundColor>
+                </Settings>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.Terminator">
+                <Settings>
+                  <BackgroundColor>00000080</BackgroundColor>
+                  <FontColor>00800000</FontColor>
+                </Settings>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+          <Style ID="SymbolAttributes">
+            <Settings>
+              <BackgroundColor>00E1E1E1</BackgroundColor>
+            </Settings>
+            <Styles/>
+          </Style>
+          <Style ID="OptionDescriptors">
+            <Settings>
+              <BackgroundColor>00000080</BackgroundColor>
+              <FontBold>1</FontBold>
+              <FontColor>00FFFFFF</FontColor>
+            </Settings>
+            <Styles/>
+          </Style>
+          <Style ID="ConnectorLines">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="ChanceOptionProbabilities">
+            <Settings>
+              <FontColor>00007F00</FontColor>
+            </Settings>
+            <Styles/>
+          </Style>
+          <Style ID="DecisionOptionsTaken">
+            <Settings>
+              <FontColor>00003F7F</FontColor>
+            </Settings>
+            <Styles>
+              <Style ID="DecisionOptionsTaken.Yes">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="DecisionOptionsTaken.No">
+                <Settings/>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+          <Style ID="OptionPayoff">
+            <Settings/>
+            <Styles>
+              <Style ID="OptionPayoff.Positive">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="OptionPayoff.Negative">
+                <Settings>
+                  <FontColor>000000FF</FontColor>
+                </Settings>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+        </Styles>
+      </Style>
+    </State>
+    <State ID="NotInTakenPath">
+      <Style ID="">
+        <Settings>
+          <LineWidth>0</LineWidth>
+        </Settings>
+        <Styles>
+          <Style ID="Symbols">
+            <Settings/>
+            <Styles>
+              <Style ID="Symbols.Decision">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.MultiDecision">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.Chance">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.Terminator">
+                <Settings>
+                  <BackgroundColor>00008080</BackgroundColor>
+                </Settings>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+          <Style ID="SymbolAttributes">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="OptionDescriptors">
+            <Settings>
+              <BackgroundColor>00008080</BackgroundColor>
+              <FontBold>0</FontBold>
+              <FontColor>00800000</FontColor>
+            </Settings>
+            <Styles/>
+          </Style>
+          <Style ID="ConnectorLines">
+            <Settings>
+              <LineWidth>1</LineWidth>
+            </Settings>
+            <Styles/>
+          </Style>
+          <Style ID="ChanceOptionProbabilities">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="DecisionOptionsTaken">
+            <Settings/>
+            <Styles>
+              <Style ID="DecisionOptionsTaken.Yes">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="DecisionOptionsTaken.No">
+                <Settings/>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+          <Style ID="OptionPayoff">
+            <Settings/>
+            <Styles>
+              <Style ID="OptionPayoff.Positive">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="OptionPayoff.Negative">
+                <Settings/>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+        </Styles>
+      </Style>
+    </State>
+    <State ID="CloneInTakenPath">
+      <Style ID="">
+        <Settings>
+          <FontItalic>1</FontItalic>
+        </Settings>
+        <Styles>
+          <Style ID="Symbols">
+            <Settings/>
+            <Styles>
+              <Style ID="Symbols.Decision">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.MultiDecision">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.Chance">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.Terminator">
+                <Settings/>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+          <Style ID="SymbolAttributes">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="OptionDescriptors">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="ConnectorLines">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="ChanceOptionProbabilities">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="DecisionOptionsTaken">
+            <Settings/>
+            <Styles>
+              <Style ID="DecisionOptionsTaken.Yes">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="DecisionOptionsTaken.No">
+                <Settings/>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+          <Style ID="OptionPayoff">
+            <Settings/>
+            <Styles>
+              <Style ID="OptionPayoff.Positive">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="OptionPayoff.Negative">
+                <Settings/>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+        </Styles>
+      </Style>
+    </State>
+    <State ID="CloneNotInTakenPath">
+      <Style ID="">
+        <Settings/>
+        <Styles>
+          <Style ID="Symbols">
+            <Settings/>
+            <Styles>
+              <Style ID="Symbols.Decision">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.MultiDecision">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.Chance">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.Terminator">
+                <Settings/>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+          <Style ID="SymbolAttributes">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="OptionDescriptors">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="ConnectorLines">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="ChanceOptionProbabilities">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="DecisionOptionsTaken">
+            <Settings/>
+            <Styles>
+              <Style ID="DecisionOptionsTaken.Yes">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="DecisionOptionsTaken.No">
+                <Settings/>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+          <Style ID="OptionPayoff">
+            <Settings/>
+            <Styles>
+              <Style ID="OptionPayoff.Positive">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="OptionPayoff.Negative">
+                <Settings/>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+        </Styles>
+      </Style>
+    </State>
+  </StyleStates>
+  <CurrencyDecimals>2</CurrencyDecimals>
+  <CurrencyPosFormat>0</CurrencyPosFormat>
+  <CurrencyNegFormat>0</CurrencyNegFormat>
+  <CurrencySymbol>$</CurrencySymbol>
+  <Branch id="95b56d97-8171-4c43-a51c-d62511bb2db2">
+    <Caption>Make or buy?</Caption>
+    <Comment>Data for this decision tree are taken from 
+an Excel sheet with the same name.</Comment>
+    <Type>Decision</Type>
+    <ChanceType>Percent</ChanceType>
+    <Probability>100</Probability>
+    <Payoff>0</Payoff>
+    <ChildrenVisible>1</ChildrenVisible>
+    <DecisionFixed>0</DecisionFixed>
+    <DecisionShowCaption>0</DecisionShowCaption>
+    <DecisionShowOwner>0</DecisionShowOwner>
+    <DecisionShowDueDate>0</DecisionShowDueDate>
+    <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+    <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+    <DecisionShowFixed>0</DecisionShowFixed>
+    <DecisionCaption></DecisionCaption>
+    <DecisionOwner></DecisionOwner>
+    <DecisionDueDate></DecisionDueDate>
+    <DecisionMultiBudget>-1</DecisionMultiBudget>
+    <PayoffSource></PayoffSource>
+    <Branches>
+      <Branch id="c9981329-907a-4345-87b7-39f604590172">
+        <Caption>Make product</Caption>
+        <Comment></Comment>
+        <Type>Chance</Type>
+        <ChanceType>AnySum</ChanceType>
+        <Probability>100</Probability>
+        <Payoff>0</Payoff>
+        <ChildrenVisible>1</ChildrenVisible>
+        <DecisionFixed>0</DecisionFixed>
+        <DecisionShowCaption>1</DecisionShowCaption>
+        <DecisionShowOwner>0</DecisionShowOwner>
+        <DecisionShowDueDate>0</DecisionShowDueDate>
+        <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+        <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+        <DecisionShowFixed>0</DecisionShowFixed>
+        <DecisionCaption>Initial investment </DecisionCaption>
+        <DecisionOwner></DecisionOwner>
+        <DecisionDueDate></DecisionDueDate>
+        <DecisionMultiBudget>-1</DecisionMultiBudget>
+        <PayoffSource></PayoffSource>
+        <Branches>
+          <Branch id="501518b2-fbda-4f46-8f77-e57f051a8ce2">
+            <Caption>Optimistic</Caption>
+            <Comment></Comment>
+            <Type>Chance</Type>
+            <ChanceType>AnySum</ChanceType>
+            <Probability>1</Probability>
+            <Payoff>-213750</Payoff>
+            <ChildrenVisible>1</ChildrenVisible>
+            <DecisionFixed>0</DecisionFixed>
+            <DecisionShowCaption>1</DecisionShowCaption>
+            <DecisionShowOwner>0</DecisionShowOwner>
+            <DecisionShowDueDate>0</DecisionShowDueDate>
+            <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+            <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+            <DecisionShowFixed>0</DecisionShowFixed>
+            <DecisionCaption>Total benefits from inv. (PV, 5y, 6%</DecisionCaption>
+            <DecisionOwner></DecisionOwner>
+            <DecisionDueDate></DecisionDueDate>
+            <DecisionMultiBudget>-1</DecisionMultiBudget>
+            <PayoffSource>Import: Excel("C:\Dokumente und Einstellungen\Oliver Lehmann\Desktop\Kopie von Insight-Tree-Templates-02\Make or buy decision with NPV scenarios.xls", "Inv_O1_opt")</PayoffSource>
+            <Branches>
+              <Branch id="3197b7c3-1a00-4a19-8e2b-a48ca9389cc4">
+                <Caption>Optimistic</Caption>
+                <Comment></Comment>
+                <Type>Decision</Type>
+                <ChanceType>Percent</ChanceType>
+                <Probability>1</Probability>
+                <Payoff>303299.11</Payoff>
+                <ChildrenVisible>1</ChildrenVisible>
+                <DecisionFixed>0</DecisionFixed>
+                <DecisionShowCaption>0</DecisionShowCaption>
+                <DecisionShowOwner>0</DecisionShowOwner>
+                <DecisionShowDueDate>0</DecisionShowDueDate>
+                <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+                <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+                <DecisionShowFixed>0</DecisionShowFixed>
+                <DecisionCaption></DecisionCaption>
+                <DecisionOwner></DecisionOwner>
+                <DecisionDueDate></DecisionDueDate>
+                <DecisionMultiBudget>-1</DecisionMultiBudget>
+                <PayoffSource>Import: Excel("C:\Dokumente und Einstellungen\Oliver Lehmann\Desktop\Kopie von Insight-Tree-Templates-02\Make or buy decision with NPV scenarios.xls", "Ben_O1_opt")</PayoffSource>
+              </Branch>
+              <Branch id="c6d6bdef-2473-438b-ae65-079a907a2d7d">
+                <Caption> Most likely</Caption>
+                <Comment></Comment>
+                <Type>Decision</Type>
+                <ChanceType>Percent</ChanceType>
+                <Probability>4</Probability>
+                <Payoff>270802.78</Payoff>
+                <ChildrenVisible>1</ChildrenVisible>
+                <DecisionFixed>0</DecisionFixed>
+                <DecisionShowCaption>0</DecisionShowCaption>
+                <DecisionShowOwner>0</DecisionShowOwner>
+                <DecisionShowDueDate>0</DecisionShowDueDate>
+                <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+                <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+                <DecisionShowFixed>0</DecisionShowFixed>
+                <DecisionCaption></DecisionCaption>
+                <DecisionOwner></DecisionOwner>
+                <DecisionDueDate></DecisionDueDate>
+                <DecisionMultiBudget>-1</DecisionMultiBudget>
+                <PayoffSource>Import: Excel("C:\Dokumente und Einstellungen\Oliver Lehmann\Desktop\Kopie von Insight-Tree-Templates-02\Make or buy decision with NPV scenarios.xls", "Ben_O1_ml")</PayoffSource>
+              </Branch>
+              <Branch id="895dde1a-745e-41b0-b248-b30114ae5b23">
+                <Caption>Pessimistic</Caption>
+                <Comment></Comment>
+                <Type>Decision</Type>
+                <ChanceType>Percent</ChanceType>
+                <Probability>1</Probability>
+                <Payoff>208518.14</Payoff>
+                <ChildrenVisible>1</ChildrenVisible>
+                <DecisionFixed>0</DecisionFixed>
+                <DecisionShowCaption>0</DecisionShowCaption>
+                <DecisionShowOwner>0</DecisionShowOwner>
+                <DecisionShowDueDate>0</DecisionShowDueDate>
+                <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+                <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+                <DecisionShowFixed>0</DecisionShowFixed>
+                <DecisionCaption></DecisionCaption>
+                <DecisionOwner></DecisionOwner>
+                <DecisionDueDate></DecisionDueDate>
+                <DecisionMultiBudget>-1</DecisionMultiBudget>
+                <PayoffSource>Import: Excel("C:\Dokumente und Einstellungen\Oliver Lehmann\Desktop\Kopie von Insight-Tree-Templates-02\Make or buy decision with NPV scenarios.xls", "Ben_O1_pess")</PayoffSource>
+              </Branch>
+            </Branches>
+          </Branch>
+          <Branch id="f5f76eaa-3572-4017-b296-ec1b2e5ffa08" ref="501518b2-fbda-4f46-8f77-e57f051a8ce2">
+            <Caption>Most likely</Caption>
+            <Comment></Comment>
+            <Type>Chance</Type>
+            <ChanceType>AnySum</ChanceType>
+            <Probability>4</Probability>
+            <Payoff>-225000</Payoff>
+            <ChildrenVisible>1</ChildrenVisible>
+            <DecisionFixed>0</DecisionFixed>
+            <DecisionShowCaption>0</DecisionShowCaption>
+            <DecisionShowOwner>0</DecisionShowOwner>
+            <DecisionShowDueDate>0</DecisionShowDueDate>
+            <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+            <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+            <DecisionShowFixed>0</DecisionShowFixed>
+            <DecisionCaption></DecisionCaption>
+            <DecisionOwner></DecisionOwner>
+            <DecisionDueDate></DecisionDueDate>
+            <DecisionMultiBudget>-1</DecisionMultiBudget>
+            <PayoffSource>Import: Excel("C:\Dokumente und Einstellungen\Oliver Lehmann\Desktop\Kopie von Insight-Tree-Templates-02\Make or buy decision with NPV scenarios.xls", "Inv_O1_ml")</PayoffSource>
+          </Branch>
+          <Branch id="d4f1bc09-1805-47b7-8903-8f64bd4c6852" ref="501518b2-fbda-4f46-8f77-e57f051a8ce2">
+            <Caption>Pessimistic</Caption>
+            <Comment></Comment>
+            <Type>Chance</Type>
+            <ChanceType>AnySum</ChanceType>
+            <Probability>1</Probability>
+            <Payoff>-281250</Payoff>
+            <ChildrenVisible>1</ChildrenVisible>
+            <DecisionFixed>0</DecisionFixed>
+            <DecisionShowCaption>0</DecisionShowCaption>
+            <DecisionShowOwner>0</DecisionShowOwner>
+            <DecisionShowDueDate>0</DecisionShowDueDate>
+            <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+            <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+            <DecisionShowFixed>0</DecisionShowFixed>
+            <DecisionCaption></DecisionCaption>
+            <DecisionOwner></DecisionOwner>
+            <DecisionDueDate></DecisionDueDate>
+            <DecisionMultiBudget>-1</DecisionMultiBudget>
+            <PayoffSource>Import: Excel("C:\Dokumente und Einstellungen\Oliver Lehmann\Desktop\Kopie von Insight-Tree-Templates-02\Make or buy decision with NPV scenarios.xls", "Inv_O1_pess")</PayoffSource>
+          </Branch>
+        </Branches>
+      </Branch>
+      <Branch id="c7ce1d96-c6ff-46cb-ab00-4a2777f4d935">
+        <Caption>Buy from 3rd party</Caption>
+        <Comment></Comment>
+        <Type>Chance</Type>
+        <ChanceType>AnySum</ChanceType>
+        <Probability>0</Probability>
+        <Payoff>0</Payoff>
+        <ChildrenVisible>1</ChildrenVisible>
+        <DecisionFixed>0</DecisionFixed>
+        <DecisionShowCaption>1</DecisionShowCaption>
+        <DecisionShowOwner>0</DecisionShowOwner>
+        <DecisionShowDueDate>0</DecisionShowDueDate>
+        <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+        <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+        <DecisionShowFixed>0</DecisionShowFixed>
+        <DecisionCaption>Initial investment</DecisionCaption>
+        <DecisionOwner></DecisionOwner>
+        <DecisionDueDate></DecisionDueDate>
+        <DecisionMultiBudget>-1</DecisionMultiBudget>
+        <PayoffSource></PayoffSource>
+        <Branches>
+          <Branch id="47a0ed40-9aa3-448b-b0d4-1be0ce94a0f0">
+            <Caption>Optimistic</Caption>
+            <Comment></Comment>
+            <Type>Chance</Type>
+            <ChanceType>AnySum</ChanceType>
+            <Probability>1</Probability>
+            <Payoff>-39900</Payoff>
+            <ChildrenVisible>1</ChildrenVisible>
+            <DecisionFixed>0</DecisionFixed>
+            <DecisionShowCaption>1</DecisionShowCaption>
+            <DecisionShowOwner>0</DecisionShowOwner>
+            <DecisionShowDueDate>0</DecisionShowDueDate>
+            <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+            <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+            <DecisionShowFixed>0</DecisionShowFixed>
+            <DecisionCaption>Total benefits from inv. (PV, 5y, 6%</DecisionCaption>
+            <DecisionOwner></DecisionOwner>
+            <DecisionDueDate></DecisionDueDate>
+            <DecisionMultiBudget>-1</DecisionMultiBudget>
+            <PayoffSource>Import: Excel("C:\Dokumente und Einstellungen\Oliver Lehmann\Desktop\Kopie von Insight-Tree-Templates-02\Make or buy decision with NPV scenarios.xls", "Inv_O2_opt")</PayoffSource>
+            <Branches>
+              <Branch id="c65ee925-85f2-4576-9095-1d13ae220dfe">
+                <Caption>Optimistic</Caption>
+                <Comment></Comment>
+                <Type>Decision</Type>
+                <ChanceType>Percent</ChanceType>
+                <Probability>1</Probability>
+                <Payoff>55479.22</Payoff>
+                <ChildrenVisible>1</ChildrenVisible>
+                <DecisionFixed>0</DecisionFixed>
+                <DecisionShowCaption>0</DecisionShowCaption>
+                <DecisionShowOwner>0</DecisionShowOwner>
+                <DecisionShowDueDate>0</DecisionShowDueDate>
+                <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+                <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+                <DecisionShowFixed>0</DecisionShowFixed>
+                <DecisionCaption></DecisionCaption>
+                <DecisionOwner></DecisionOwner>
+                <DecisionDueDate></DecisionDueDate>
+                <DecisionMultiBudget>-1</DecisionMultiBudget>
+                <PayoffSource>Import: Excel("C:\Dokumente und Einstellungen\Oliver Lehmann\Desktop\Kopie von Insight-Tree-Templates-02\Make or buy decision with NPV scenarios.xls", "Ben_O2_opt")</PayoffSource>
+              </Branch>
+              <Branch id="65cf356b-a9ff-4a97-b41a-eddb8c2af331">
+                <Caption> Most likely</Caption>
+                <Comment></Comment>
+                <Type>Decision</Type>
+                <ChanceType>Percent</ChanceType>
+                <Probability>4</Probability>
+                <Payoff>49535.02</Payoff>
+                <ChildrenVisible>1</ChildrenVisible>
+                <DecisionFixed>0</DecisionFixed>
+                <DecisionShowCaption>0</DecisionShowCaption>
+                <DecisionShowOwner>0</DecisionShowOwner>
+                <DecisionShowDueDate>0</DecisionShowDueDate>
+                <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+                <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+                <DecisionShowFixed>0</DecisionShowFixed>
+                <DecisionCaption></DecisionCaption>
+                <DecisionOwner></DecisionOwner>
+                <DecisionDueDate></DecisionDueDate>
+                <DecisionMultiBudget>-1</DecisionMultiBudget>
+                <PayoffSource>Import: Excel("C:\Dokumente und Einstellungen\Oliver Lehmann\Desktop\Kopie von Insight-Tree-Templates-02\Make or buy decision with NPV scenarios.xls", "Ben_O2_ml")</PayoffSource>
+              </Branch>
+              <Branch id="ffd45179-26be-4e22-abcc-276eae960d83">
+                <Caption>Pessimistic</Caption>
+                <Comment></Comment>
+                <Type>Decision</Type>
+                <ChanceType>Percent</ChanceType>
+                <Probability>1</Probability>
+                <Payoff>38141.96</Payoff>
+                <ChildrenVisible>1</ChildrenVisible>
+                <DecisionFixed>0</DecisionFixed>
+                <DecisionShowCaption>0</DecisionShowCaption>
+                <DecisionShowOwner>0</DecisionShowOwner>
+                <DecisionShowDueDate>0</DecisionShowDueDate>
+                <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+                <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+                <DecisionShowFixed>0</DecisionShowFixed>
+                <DecisionCaption></DecisionCaption>
+                <DecisionOwner></DecisionOwner>
+                <DecisionDueDate></DecisionDueDate>
+                <DecisionMultiBudget>-1</DecisionMultiBudget>
+                <PayoffSource>Import: Excel("C:\Dokumente und Einstellungen\Oliver Lehmann\Desktop\Kopie von Insight-Tree-Templates-02\Make or buy decision with NPV scenarios.xls", "Ben_O2_pess")</PayoffSource>
+              </Branch>
+            </Branches>
+          </Branch>
+          <Branch id="eb4bbf7a-9130-4876-a0e2-f03394e0c2d5" ref="47a0ed40-9aa3-448b-b0d4-1be0ce94a0f0">
+            <Caption>Most likely</Caption>
+            <Comment></Comment>
+            <Type>Chance</Type>
+            <ChanceType>AnySum</ChanceType>
+            <Probability>4</Probability>
+            <Payoff>-42000</Payoff>
+            <ChildrenVisible>1</ChildrenVisible>
+            <DecisionFixed>0</DecisionFixed>
+            <DecisionShowCaption>0</DecisionShowCaption>
+            <DecisionShowOwner>0</DecisionShowOwner>
+            <DecisionShowDueDate>0</DecisionShowDueDate>
+            <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+            <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+            <DecisionShowFixed>0</DecisionShowFixed>
+            <DecisionCaption></DecisionCaption>
+            <DecisionOwner></DecisionOwner>
+            <DecisionDueDate></DecisionDueDate>
+            <DecisionMultiBudget>-1</DecisionMultiBudget>
+            <PayoffSource>Import: Excel("C:\Dokumente und Einstellungen\Oliver Lehmann\Desktop\Kopie von Insight-Tree-Templates-02\Make or buy decision with NPV scenarios.xls", "Inv_O2_ml")</PayoffSource>
+          </Branch>
+          <Branch id="1442e91d-aab1-4e66-bb34-fcf2f4ab9d57" ref="47a0ed40-9aa3-448b-b0d4-1be0ce94a0f0">
+            <Caption>Pessimistic</Caption>
+            <Comment></Comment>
+            <Type>Chance</Type>
+            <ChanceType>AnySum</ChanceType>
+            <Probability>1</Probability>
+            <Payoff>-52500</Payoff>
+            <ChildrenVisible>1</ChildrenVisible>
+            <DecisionFixed>0</DecisionFixed>
+            <DecisionShowCaption>0</DecisionShowCaption>
+            <DecisionShowOwner>0</DecisionShowOwner>
+            <DecisionShowDueDate>0</DecisionShowDueDate>
+            <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+            <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+            <DecisionShowFixed>0</DecisionShowFixed>
+            <DecisionCaption></DecisionCaption>
+            <DecisionOwner></DecisionOwner>
+            <DecisionDueDate></DecisionDueDate>
+            <DecisionMultiBudget>-1</DecisionMultiBudget>
+            <PayoffSource>Import: Excel("C:\Dokumente und Einstellungen\Oliver Lehmann\Desktop\Kopie von Insight-Tree-Templates-02\Make or buy decision with NPV scenarios.xls", "Inv_O2_pess")</PayoffSource>
+          </Branch>
+        </Branches>
+      </Branch>
+      <Branch id="4a9db44c-9550-4fe0-b25b-406c06cf2952">
+        <Caption>Leave to competition</Caption>
+        <Comment></Comment>
+        <Type>Decision</Type>
+        <ChanceType>Percent</ChanceType>
+        <Probability>0</Probability>
+        <Payoff>0</Payoff>
+        <ChildrenVisible>1</ChildrenVisible>
+        <DecisionFixed>0</DecisionFixed>
+        <DecisionShowCaption>0</DecisionShowCaption>
+        <DecisionShowOwner>0</DecisionShowOwner>
+        <DecisionShowDueDate>0</DecisionShowDueDate>
+        <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+        <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+        <DecisionShowFixed>0</DecisionShowFixed>
+        <DecisionCaption></DecisionCaption>
+        <DecisionOwner></DecisionOwner>
+        <DecisionDueDate></DecisionDueDate>
+        <DecisionMultiBudget>-1</DecisionMultiBudget>
+        <PayoffSource></PayoffSource>
+      </Branch>
+    </Branches>
+  </Branch>
+</Tree>
