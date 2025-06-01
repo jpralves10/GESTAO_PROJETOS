@@ -1,0 +1,151 @@
+Prova:
+Conceito e exemplos.
+
+* O que é custo variável e custo fixo. 
+	- Gasto:
+		Sacrifício financeiro para obtenção de um bem ou serviço (pagos de 		forma antecipado, à vista ou a prazo
+		Ex.: 
+		Gasto com compra de Matéria-prima;
+		Gasto com mão de obra;
+		Gasto com compra de um imobilizado.
+	- Custo
+		Gasto relativo a um bem ou serviço utilizado na produção de outros 		bens ou serviços do projeto.
+		Gasto com uma atividade de um projeto.
+		Ex.:
+		Consumo de Matéria-prima;
+		Energia Elétrica;
+		Mão de obra.
+	- Despesa
+		Gasto relativo a bens e serviços não correlacionados com o produto do 		projeto. 
+		Classificadas em Administrativas, de Vendas ou  Comerciais e 		Financeiras.
+		Ex.: aluguéis, impostos, despesas com pessoal das áreas 		administrativas. 
+	- Ativo (ou investimento)
+		Gastos com bem ou serviço, ativado em função de sua vida útil ou de 			benefícios atribuíveis a períodos futuros.
+		Ex.: 
+		Gastos com um projeto (do ponto de vista da empresa);
+		Matéria-prima em estoque;
+		Aquisição de móveis, imóveis e equipamentos.
+	- Custo Direto
+		Custos assumidos integralmente pelo projeto
+		Não necessitam de rateio para alocação no projeto
+		Exemplos: mão de obra direta do projeto
+	- Custo Indireto
+		Custos gerais incorridos em benefício de mais de um projeto
+		A organização estabelece o critério de rateio
+		Exemplos: Recurso alocado e rateado entre mais de um projeto
+	- Custos Fixos
+		Custos que não se alteram de acordo com a quantidade de trabalho ou 		de atividades
+		Exemplos: Contratações com valores pré-definidos e sem variação de 		custo
+	- Custos Variáveis
+		Qualquer custo que pode ser alterado de acordo com a quantidade de 		trabalho ou de atividades
+		Exemplos: recursos contratados por hora em projetos que podem 				demandar aumento de alocação.
+
+* Capex e Opex.
+	- Capex
+		Montante de investimentos realizados em equipamentos e instalações de 		forma a manter a produção de um produto ou serviço ou para manter em 		funcionamento um negócio ou um determinado sistema.
+	- Opex
+		Gastos associados à manutenção dos equipamentos e à aquisição de 		consumíveis e outras despesas operacionais, necessários à produção e 			à manutenção em funcionamento do negócio ou sistema.
+	- TCO – TOTAL COST OF OWNERSHIP
+		Cálculo que visa levar em conta todos os custos envolvidos no uso de 		um determinado equipamento ou solução.
+		Capex + Opex = TCO 
+
+
+* Papel do gerente do projeto.
+	O Gestor deve ter capacidade de liderança.
+	O Gestor deve ter habilidades de comunicação.
+	O Gestor deve ter habilidade para negociar.
+	O Gestor deve ter capacidade de resolução de problemas.
+	O Gestor deve ser flexível.
+	O Gestor deve ser influente na organização.
+
+	Interpessoais: líder, pessoa de referência, contato entre pessoas.
+	Comunicação: coletar, selecionar, monitorar e disseminar informações; porta		-voz do projeto.
+	Decisão: alocar recursos, explorar novas oportunidades, gerir conflitos, 		negociar, analisar situações, estabelecer prioridades.
+
+* Processo de gerenciamento de custos
+	1.Planejar o gerenciamento de custos (Planejamento)
+		Processo de estabelecer as políticas, os procedimentos e a 		documentação necessários para o planejamento, gerenciamento, despesas 		e controle dos custos do projeto
+		O principal benefício é o fornecimento de orientação e instruções 		sobre como os custos do projeto serão gerenciados ao longo de todo o 			projeto (Modelo de Governança dos Custos do Projeto).
+	2.Estimar os custos (Planejamento)
+		Inclui desenvolver uma estimativa dos recursos monetários necessários 		para executar as atividades do projeto.
+	3.Determinar o orçamento (Planejamento)
+		Inclui agregar os custos estimados de atividades ou pacotes de 				trabalho para estabelecer uma linha de base autorizada do projeto
+	4.Controlar os custos (Monitoramento e Controle)
+		Controlar os fatores que criam mudanças na linha de base dos custos;
+		Gerenciar as mudanças quando e conforme ocorrem;
+		Assegurar que os gastos de custos não excedam os recursos financeiros 		autorizados, por período e total do projeto;
+		Monitorar o desempenho de custos para gerenciar as variações a partir 		da linha de base custos;
+		Monitorar o desempenho do trabalho em relação aos recursos 		financeiros gastos;
+		Agir para manter os excessos de custos não previstos dentro dos 		limites aceitáveis.
+		- Passos do processo de controle de custos:
+		1.Registrar o desempenho atual
+		2.Calcular a variação ou desvio
+		3.Estimar o desempenho futuro
+		4.Tomar uma ação (de acordo com o tamanho e com a causa do desvio)
+
+
+* Metodos de estimativas de custos
+	- Estimativa baseada na opinião dos especialistas
+		Envolve especialistas, das diversas disciplinas, que estejam 				familiarizados com as atividades;
+		Normalmente sem a utilização de dados técnicos detalhados (como 			desenhos, listas de materiais, especificações, etc.);
+		Maior rapidez na elaboração da estimativa de custos, e, 				consequentemente, menor custo;
+	- Estimativa análoga ou top-down
+		Fase inicial do projeto;
+		Estima “grosseiramente”, o custo total do projeto ou de componentes 			da EAP;
+		Orçamento de cima para baixo. Essa é a tradução literal para Top Down 		Budgeting (o Orçamento Top Down). De uma maneira bem resumida sobre o 		que é Top Down, trata-se de partir do geral para o específico.
+		Similaridade (escopo, complexidade, duração, tipo, tamanho, locação, 			requisitos, e expectativas de qualidade) entre projeto proposto e o 			que faz parte da base de dados históricos;
+		Também chamada de analogia específica, custos históricos, análise 			comparativa, estimativa fatorizada ou método do fator de capacidade.
+	- Estimativa Paramétrica
+		Utiliza equações ou modelos matemáticos/estatísticos para relacionar 			custos a parâmetros tais como tamanho, volume, área, peso, potência, 			consumo de energia, pontos de função, etc.; 
+		É top-down, mais rápida e preliminar;
+		Modelo matemático para prever os custos do projeto;
+		Mais confiável quando:
+		Os projetos envolvidos são similares;
+		As informações históricas utilizadas no modelo são precisas;
+		O modelo é “escalável”; por exemplo, funciona tanto para os projetos 			pequenos como para os grandes;
+		Exemplo: custo por linha de código, por metro quadrado,...
+	- Estimativa  detalhada ou definitiva
+		É bottom-up;
+		Orçamento de baixo para cima.
+		Inicia pelo nível mais baixo da EAP (pacotes de trabalho) ou 				atividades;
+		Trata-se de partir do específico para o geral.
+		Agrega custos  até obter estimativas do projeto inteiro;
+		Baseada no conhecimento detalhado do projeto;
+		Custos obtidos por meio de informações históricas e propostas formais 		de fornecedores;
+		Custos tem rastreabilidade, consistência e precisão aos valores 			estabelecidos.
+	- Estimativa  três pontos
+		Baseada na técnica de PERT - Program Evaluation and Review Technique; 
+		Consideram-se os riscos já conhecidos e 3 tipos de estimativas:
+		Pessimista (P) -> considera o pior cenário;
+		Otimista (O) -> considera o melhor cenário possível;
+		Mais provável (M) -> considera a disponibilidade de recursos, os 			riscos conhecidos, etc. 
+		Pode ser calculada de duas formas: 1.Distribuição triangular / 				2.Distribuição Beta
+
+* Gerenciamento do Valor Agregado
+	- Valor Planejado (VP)
+		Custo planejado para o trabalho até o momento da medição;
+ 		Apenas é alterado quando a base de referência (“baseline”)  é 				alterada.
+	- Custo Real (CR)
+		Custo real do trabalho já realizado, reportado até o momento da 			medição;
+		Baseado na conclusão real dos pacotes de trabalho
+	- Valor Agregado (VA)
+		Custo planejado para o trabalho realizado, reportado até o momento da 		medição;
+		Baseado na conclusão real dos pacotes;
+		Valores da base de referência (“baseline”) do trabalho reportado.
+
+CR = Custo Real
+VP = Valor Planejado
+VA = Valor Agregado
+IDP = Índice de Desempenho de Prazo
+IDC = Índice de Desempenho de Custos
+ONT = Orçamento no Término
+VPr = Variação de Prazo
+VC = Variação de Custo
+ENT = Estimativa no Término
+EPT = Estimativa para Térmno
+VNT = Variação no Término
+
+
+
+Estudos de caso.
+2 exercícios de valor agregado.
