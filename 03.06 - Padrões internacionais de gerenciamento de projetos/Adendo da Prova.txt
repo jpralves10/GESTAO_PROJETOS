@@ -1,0 +1,13 @@
+Pagina 70
+
+o que é guia, o que é padrão
+
+
+------
+
+Como vc implementaria o estudo de caso para cada guia:
+
+Pmbok > pmi
+Icb4 > ipma
+Fel > ipa
+Prince 2 > axelos

@@ -1,0 +1,44 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+
+# dependencies
+/node_modules
+/server-meat/node_modules
+/server/node_modules
+/client/node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Gestao Projetos
+/# Diversos
+/# Documentos
+/# Livros
+/# MS Project
+/01.01 - Liderança e gestão de equipes
+/01.02 - Environmental, social and corporate governance (ESG)
+/01.03 - Estratégia corporativa e de negócios
+/01.04 - Análise de viabilidade de projetos
+/01.05 - Negociação e administração de conflitos
+/01.06 - Gerenciamento de programas, portfólio e PMO
+/02.01 - Fundamentos de gerenciamento de projetos
+/02.02 - Gerenciamento de escopo e qualidade em projetos
+/02.03 - Gerenciamento de cronograma e custos em projetos
+/02.04 - Gerenciamento de riscos em projetos
+/02.05 - Gerenciamento de aquisições em projetos
+/02.06 - Gerenciamento da integração em projetos
+/03.01 - Mudança e cultura organizacional
+/03.02 - Empreendedorismo e gestão da inovação
+/03.03 - Métodos ágeis
+/03.04 - Inteligência artificial aplicada a projetos
+/03.05 - Projetos complexos e gerenciamento de crises
