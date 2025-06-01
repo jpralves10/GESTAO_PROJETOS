@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tree><!--This Decision Tree File has been created with Insight Tree, available from http://www.visionarytools.com-->  <OutlineCodes>1</OutlineCodes>
+  <StatusDate></StatusDate>
+  <ShowPayoff>1</ShowPayoff>
+  <StyleStates>
+    <State ID="InTakenPath">
+      <Style ID="">
+        <Settings>
+          <BackgroundColor>00FFE7D9</BackgroundColor>
+          <LineWidth>2</LineWidth>
+          <LineColor>00800000</LineColor>
+          <FontName>Arial</FontName>
+          <FontSize>9</FontSize>
+          <FontBold>0</FontBold>
+          <FontItalic>0</FontItalic>
+          <FontUnderline>0</FontUnderline>
+          <FontStrikeOut>0</FontStrikeOut>
+          <FontColor>00800000</FontColor>
+          <FillMode>Solid</FillMode>
+          <Shadow>None</Shadow>
+        </Settings>
+        <Styles>
+          <Style ID="Symbols">
+            <Settings/>
+            <Styles>
+              <Style ID="Symbols.Decision">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.MultiDecision">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.Chance">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.Terminator">
+                <Settings/>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+          <Style ID="SymbolAttributes">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="OptionDescriptors">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="ConnectorLines">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="ChanceOptionProbabilities">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="DecisionOptionsTaken">
+            <Settings/>
+            <Styles>
+              <Style ID="DecisionOptionsTaken.Yes">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="DecisionOptionsTaken.No">
+                <Settings/>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+          <Style ID="OptionPayoff">
+            <Settings/>
+            <Styles>
+              <Style ID="OptionPayoff.Positive">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="OptionPayoff.Negative">
+                <Settings/>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+        </Styles>
+      </Style>
+    </State>
+    <State ID="NotInTakenPath">
+      <Style ID="">
+        <Settings>
+          <BackgroundColor>00DDFFDD</BackgroundColor>
+          <LineWidth>0</LineWidth>
+          <FontItalic>1</FontItalic>
+          <FontColor>00808000</FontColor>
+        </Settings>
+        <Styles>
+          <Style ID="Symbols">
+            <Settings/>
+            <Styles>
+              <Style ID="Symbols.Decision">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.MultiDecision">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.Chance">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.Terminator">
+                <Settings/>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+          <Style ID="SymbolAttributes">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="OptionDescriptors">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="ConnectorLines">
+            <Settings>
+              <LineWidth>1</LineWidth>
+              <LineColor>00808000</LineColor>
+            </Settings>
+            <Styles/>
+          </Style>
+          <Style ID="ChanceOptionProbabilities">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="DecisionOptionsTaken">
+            <Settings/>
+            <Styles>
+              <Style ID="DecisionOptionsTaken.Yes">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="DecisionOptionsTaken.No">
+                <Settings/>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+          <Style ID="OptionPayoff">
+            <Settings/>
+            <Styles>
+              <Style ID="OptionPayoff.Positive">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="OptionPayoff.Negative">
+                <Settings/>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+        </Styles>
+      </Style>
+    </State>
+    <State ID="CloneInTakenPath">
+      <Style ID="">
+        <Settings>
+          <LineColor>00FFD9EC</LineColor>
+          <FontItalic>1</FontItalic>
+        </Settings>
+        <Styles>
+          <Style ID="Symbols">
+            <Settings/>
+            <Styles>
+              <Style ID="Symbols.Decision">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.MultiDecision">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.Chance">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.Terminator">
+                <Settings/>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+          <Style ID="SymbolAttributes">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="OptionDescriptors">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="ConnectorLines">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="ChanceOptionProbabilities">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="DecisionOptionsTaken">
+            <Settings/>
+            <Styles>
+              <Style ID="DecisionOptionsTaken.Yes">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="DecisionOptionsTaken.No">
+                <Settings/>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+          <Style ID="OptionPayoff">
+            <Settings/>
+            <Styles>
+              <Style ID="OptionPayoff.Positive">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="OptionPayoff.Negative">
+                <Settings/>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+        </Styles>
+      </Style>
+    </State>
+    <State ID="CloneNotInTakenPath">
+      <Style ID="">
+        <Settings/>
+        <Styles>
+          <Style ID="Symbols">
+            <Settings/>
+            <Styles>
+              <Style ID="Symbols.Decision">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.MultiDecision">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.Chance">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.Terminator">
+                <Settings/>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+          <Style ID="SymbolAttributes">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="OptionDescriptors">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="ConnectorLines">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="ChanceOptionProbabilities">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="DecisionOptionsTaken">
+            <Settings/>
+            <Styles>
+              <Style ID="DecisionOptionsTaken.Yes">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="DecisionOptionsTaken.No">
+                <Settings/>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+          <Style ID="OptionPayoff">
+            <Settings/>
+            <Styles>
+              <Style ID="OptionPayoff.Positive">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="OptionPayoff.Negative">
+                <Settings/>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+        </Styles>
+      </Style>
+    </State>
+  </StyleStates>
+  <CurrencyDecimals>2</CurrencyDecimals>
+  <CurrencyPosFormat>0</CurrencyPosFormat>
+  <CurrencyNegFormat>0</CurrencyNegFormat>
+  <CurrencySymbol>$</CurrencySymbol>
+  <Branch id="6f4653bd-3c44-4c1a-bc20-83aacb473551">
+    <Caption>Net Present Value Projection</Caption>
+    <Comment>Data for this decision tree are taken from 
+an Excel sheet with the same name.</Comment>
+    <Type>Decision</Type>
+    <ChanceType>Percent</ChanceType>
+    <Probability>100</Probability>
+    <Payoff>0</Payoff>
+    <ChildrenVisible>1</ChildrenVisible>
+    <DecisionFixed>0</DecisionFixed>
+    <DecisionShowCaption>0</DecisionShowCaption>
+    <DecisionShowOwner>0</DecisionShowOwner>
+    <DecisionShowDueDate>0</DecisionShowDueDate>
+    <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+    <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+    <DecisionShowFixed>0</DecisionShowFixed>
+    <DecisionCaption></DecisionCaption>
+    <DecisionOwner></DecisionOwner>
+    <DecisionDueDate></DecisionDueDate>
+    <DecisionMultiBudget>-1</DecisionMultiBudget>
+    <PayoffSource></PayoffSource>
+    <Branches>
+      <Branch id="802e07d5-242b-46c5-a540-5fe6edfb044e">
+        <Caption>Investment #1</Caption>
+        <Comment></Comment>
+        <Type>Chance</Type>
+        <ChanceType>Percent</ChanceType>
+        <Probability>0</Probability>
+        <Payoff>-350000</Payoff>
+        <ChildrenVisible>1</ChildrenVisible>
+        <DecisionFixed>0</DecisionFixed>
+        <DecisionShowCaption>0</DecisionShowCaption>
+        <DecisionShowOwner>0</DecisionShowOwner>
+        <DecisionShowDueDate>0</DecisionShowDueDate>
+        <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+        <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+        <DecisionShowFixed>0</DecisionShowFixed>
+        <DecisionCaption></DecisionCaption>
+        <DecisionOwner></DecisionOwner>
+        <DecisionDueDate></DecisionDueDate>
+        <DecisionMultiBudget>-1</DecisionMultiBudget>
+        <PayoffSource>Import: Excel("C:\Dokumente und Einstellungen\Oliver Lehmann\Desktop\Insight-Tree-Templates-02\Project Selection with NPV Optimization.xls", "Investment_1")</PayoffSource>
+        <Branches>
+          <Branch id="1f656f3c-47b2-4261-aace-ec5b342466a5">
+            <Caption>Opt. benefits (4y, 10%)</Caption>
+            <Comment></Comment>
+            <Type>Decision</Type>
+            <ChanceType>Percent</ChanceType>
+            <Probability>50</Probability>
+            <Payoff>450441.23</Payoff>
+            <ChildrenVisible>1</ChildrenVisible>
+            <DecisionFixed>0</DecisionFixed>
+            <DecisionShowCaption>0</DecisionShowCaption>
+            <DecisionShowOwner>0</DecisionShowOwner>
+            <DecisionShowDueDate>0</DecisionShowDueDate>
+            <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+            <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+            <DecisionShowFixed>0</DecisionShowFixed>
+            <DecisionCaption></DecisionCaption>
+            <DecisionOwner></DecisionOwner>
+            <DecisionDueDate></DecisionDueDate>
+            <DecisionMultiBudget>-1</DecisionMultiBudget>
+            <PayoffSource>Import: Excel("C:\Dokumente und Einstellungen\Oliver Lehmann\Desktop\Insight-Tree-Templates-02\Project Selection with NPV Optimization.xls", "PV_of_Benefits_1_o")</PayoffSource>
+          </Branch>
+          <Branch id="6b34e42e-25dc-481e-bfd3-744bfdbd9de8">
+            <Caption>Pess. benefits (4y, 10%)</Caption>
+            <Comment></Comment>
+            <Type>Decision</Type>
+            <ChanceType>Percent</ChanceType>
+            <Probability>50</Probability>
+            <Payoff>376572.64</Payoff>
+            <ChildrenVisible>1</ChildrenVisible>
+            <DecisionFixed>0</DecisionFixed>
+            <DecisionShowCaption>0</DecisionShowCaption>
+            <DecisionShowOwner>0</DecisionShowOwner>
+            <DecisionShowDueDate>0</DecisionShowDueDate>
+            <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+            <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+            <DecisionShowFixed>0</DecisionShowFixed>
+            <DecisionCaption></DecisionCaption>
+            <DecisionOwner></DecisionOwner>
+            <DecisionDueDate></DecisionDueDate>
+            <DecisionMultiBudget>-1</DecisionMultiBudget>
+            <PayoffSource>Import: Excel("C:\Dokumente und Einstellungen\Oliver Lehmann\Desktop\Insight-Tree-Templates-02\Project Selection with NPV Optimization.xls", "PV_of_Benefits_1_p")</PayoffSource>
+          </Branch>
+        </Branches>
+      </Branch>
+      <Branch id="c1d0f238-d684-4354-a68e-8d8e5332b395">
+        <Caption>Investment #2</Caption>
+        <Comment></Comment>
+        <Type>Chance</Type>
+        <ChanceType>Percent</ChanceType>
+        <Probability>0</Probability>
+        <Payoff>-650000</Payoff>
+        <ChildrenVisible>1</ChildrenVisible>
+        <DecisionFixed>0</DecisionFixed>
+        <DecisionShowCaption>0</DecisionShowCaption>
+        <DecisionShowOwner>0</DecisionShowOwner>
+        <DecisionShowDueDate>0</DecisionShowDueDate>
+        <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+        <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+        <DecisionShowFixed>0</DecisionShowFixed>
+        <DecisionCaption></DecisionCaption>
+        <DecisionOwner></DecisionOwner>
+        <DecisionDueDate></DecisionDueDate>
+        <DecisionMultiBudget>-1</DecisionMultiBudget>
+        <PayoffSource>Import: Excel("C:\Dokumente und Einstellungen\Oliver Lehmann\Desktop\Insight-Tree-Templates-02\Project Selection with NPV Optimization.xls", "Investment_2")</PayoffSource>
+        <Branches>
+          <Branch id="1cac15f5-6a7d-4cfa-a745-246e799c1bdc">
+            <Caption>Opt. benefits (4y, 10%)</Caption>
+            <Comment></Comment>
+            <Type>Decision</Type>
+            <ChanceType>Percent</ChanceType>
+            <Probability>50</Probability>
+            <Payoff>744904.72</Payoff>
+            <ChildrenVisible>1</ChildrenVisible>
+            <DecisionFixed>0</DecisionFixed>
+            <DecisionShowCaption>0</DecisionShowCaption>
+            <DecisionShowOwner>0</DecisionShowOwner>
+            <DecisionShowDueDate>0</DecisionShowDueDate>
+            <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+            <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+            <DecisionShowFixed>0</DecisionShowFixed>
+            <DecisionCaption></DecisionCaption>
+            <DecisionOwner></DecisionOwner>
+            <DecisionDueDate></DecisionDueDate>
+            <DecisionMultiBudget>-1</DecisionMultiBudget>
+            <PayoffSource>Import: Excel("C:\Dokumente und Einstellungen\Oliver Lehmann\Desktop\Insight-Tree-Templates-02\Project Selection with NPV Optimization.xls", "PV_of_Benefits_2_o")</PayoffSource>
+          </Branch>
+          <Branch id="ce9b0d10-0c0f-403b-9737-0532aaf46a20">
+            <Caption>Pess. benefits (4y, 10%)</Caption>
+            <Comment></Comment>
+            <Type>Decision</Type>
+            <ChanceType>Percent</ChanceType>
+            <Probability>50</Probability>
+            <Payoff>646061.06</Payoff>
+            <ChildrenVisible>1</ChildrenVisible>
+            <DecisionFixed>0</DecisionFixed>
+            <DecisionShowCaption>0</DecisionShowCaption>
+            <DecisionShowOwner>0</DecisionShowOwner>
+            <DecisionShowDueDate>0</DecisionShowDueDate>
+            <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+            <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+            <DecisionShowFixed>0</DecisionShowFixed>
+            <DecisionCaption></DecisionCaption>
+            <DecisionOwner></DecisionOwner>
+            <DecisionDueDate></DecisionDueDate>
+            <DecisionMultiBudget>-1</DecisionMultiBudget>
+            <PayoffSource>Import: Excel("C:\Dokumente und Einstellungen\Oliver Lehmann\Desktop\Insight-Tree-Templates-02\Project Selection with NPV Optimization.xls", "PV_of_Benefits_2_p")</PayoffSource>
+          </Branch>
+        </Branches>
+      </Branch>
+      <Branch id="9a0b7052-56c2-49ac-b375-92b7c51e05a7">
+        <Caption>Investment #3</Caption>
+        <Comment></Comment>
+        <Type>Chance</Type>
+        <ChanceType>Percent</ChanceType>
+        <Probability>100</Probability>
+        <Payoff>-530000</Payoff>
+        <ChildrenVisible>1</ChildrenVisible>
+        <DecisionFixed>0</DecisionFixed>
+        <DecisionShowCaption>0</DecisionShowCaption>
+        <DecisionShowOwner>0</DecisionShowOwner>
+        <DecisionShowDueDate>0</DecisionShowDueDate>
+        <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+        <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+        <DecisionShowFixed>0</DecisionShowFixed>
+        <DecisionCaption></DecisionCaption>
+        <DecisionOwner></DecisionOwner>
+        <DecisionDueDate></DecisionDueDate>
+        <DecisionMultiBudget>-1</DecisionMultiBudget>
+        <PayoffSource>Import: Excel("C:\Dokumente und Einstellungen\Oliver Lehmann\Desktop\Insight-Tree-Templates-02\Project Selection with NPV Optimization.xls", "Investment_3")</PayoffSource>
+        <Branches>
+          <Branch id="f9364f03-aa0a-4afd-94e6-b72dc20de6a1">
+            <Caption>Opt. benefits (4y, 10%)</Caption>
+            <Comment></Comment>
+            <Type>Decision</Type>
+            <ChanceType>Percent</ChanceType>
+            <Probability>50</Probability>
+            <Payoff>665858.89</Payoff>
+            <ChildrenVisible>1</ChildrenVisible>
+            <DecisionFixed>0</DecisionFixed>
+            <DecisionShowCaption>0</DecisionShowCaption>
+            <DecisionShowOwner>0</DecisionShowOwner>
+            <DecisionShowDueDate>0</DecisionShowDueDate>
+            <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+            <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+            <DecisionShowFixed>0</DecisionShowFixed>
+            <DecisionCaption></DecisionCaption>
+            <DecisionOwner></DecisionOwner>
+            <DecisionDueDate></DecisionDueDate>
+            <DecisionMultiBudget>-1</DecisionMultiBudget>
+            <PayoffSource>Import: Excel("C:\Dokumente und Einstellungen\Oliver Lehmann\Desktop\Insight-Tree-Templates-02\Project Selection with NPV Optimization.xls", "PV_of_Benefits_3_o")</PayoffSource>
+          </Branch>
+          <Branch id="506dad73-8371-44f1-a091-5b96865b2764">
+            <Caption>Pess. benefits (4y, 10%)</Caption>
+            <Comment></Comment>
+            <Type>Decision</Type>
+            <ChanceType>Percent</ChanceType>
+            <Probability>50</Probability>
+            <Payoff>559476.81</Payoff>
+            <ChildrenVisible>1</ChildrenVisible>
+            <DecisionFixed>0</DecisionFixed>
+            <DecisionShowCaption>0</DecisionShowCaption>
+            <DecisionShowOwner>0</DecisionShowOwner>
+            <DecisionShowDueDate>0</DecisionShowDueDate>
+            <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+            <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+            <DecisionShowFixed>0</DecisionShowFixed>
+            <DecisionCaption></DecisionCaption>
+            <DecisionOwner></DecisionOwner>
+            <DecisionDueDate></DecisionDueDate>
+            <DecisionMultiBudget>-1</DecisionMultiBudget>
+            <PayoffSource>Import: Excel("C:\Dokumente und Einstellungen\Oliver Lehmann\Desktop\Insight-Tree-Templates-02\Project Selection with NPV Optimization.xls", "PV_of_Benefits_3_p")</PayoffSource>
+          </Branch>
+        </Branches>
+      </Branch>
+      <Branch id="7b901f5c-71ed-4864-81a0-d8e44e120666">
+        <Caption>No investment</Caption>
+        <Comment></Comment>
+        <Type>Chance</Type>
+        <ChanceType>Percent</ChanceType>
+        <Probability>0</Probability>
+        <Payoff>0</Payoff>
+        <ChildrenVisible>1</ChildrenVisible>
+        <DecisionFixed>0</DecisionFixed>
+        <DecisionShowCaption>0</DecisionShowCaption>
+        <DecisionShowOwner>0</DecisionShowOwner>
+        <DecisionShowDueDate>0</DecisionShowDueDate>
+        <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+        <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+        <DecisionShowFixed>0</DecisionShowFixed>
+        <DecisionCaption></DecisionCaption>
+        <DecisionOwner></DecisionOwner>
+        <DecisionDueDate></DecisionDueDate>
+        <DecisionMultiBudget>-1</DecisionMultiBudget>
+        <PayoffSource></PayoffSource>
+      </Branch>
+    </Branches>
+  </Branch>
+</Tree>

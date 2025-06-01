@@ -1,0 +1,905 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tree><!--This Decision Tree File has been created with Insight Tree, available from http://www.visionarytools.com-->  <OutlineCodes>1</OutlineCodes>
+  <StatusDate></StatusDate>
+  <ShowPayoff>1</ShowPayoff>
+  <StyleStates>
+    <State ID="InTakenPath">
+      <Style ID="">
+        <Settings>
+          <BackgroundColor>0000FFFF</BackgroundColor>
+          <LineWidth>4</LineWidth>
+          <LineColor>0000FFFF</LineColor>
+          <FontName>Comic Sans MS</FontName>
+          <FontSize>10</FontSize>
+          <FontBold>0</FontBold>
+          <FontItalic>0</FontItalic>
+          <FontUnderline>0</FontUnderline>
+          <FontStrikeOut>0</FontStrikeOut>
+          <FontColor>00000000</FontColor>
+          <FillMode>Gradient</FillMode>
+          <Shadow>Soft</Shadow>
+        </Settings>
+        <Styles>
+          <Style ID="Symbols">
+            <Settings>
+              <BackgroundColor>00D5FCFD</BackgroundColor>
+              <FontColor>00808000</FontColor>
+            </Settings>
+            <Styles>
+              <Style ID="Symbols.Decision">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.MultiDecision">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.Chance">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.Terminator">
+                <Settings/>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+          <Style ID="SymbolAttributes">
+            <Settings>
+              <BackgroundColor>00E1E1E1</BackgroundColor>
+            </Settings>
+            <Styles/>
+          </Style>
+          <Style ID="OptionDescriptors">
+            <Settings>
+              <BackgroundColor>0084FFFF</BackgroundColor>
+              <LineWidth>1</LineWidth>
+              <LineColor>0000E1E1</LineColor>
+            </Settings>
+            <Styles/>
+          </Style>
+          <Style ID="ConnectorLines">
+            <Settings>
+              <LineWidth>4</LineWidth>
+              <LineColor>0000E1E1</LineColor>
+            </Settings>
+            <Styles/>
+          </Style>
+          <Style ID="ChanceOptionProbabilities">
+            <Settings>
+              <FontColor>00007F00</FontColor>
+            </Settings>
+            <Styles/>
+          </Style>
+          <Style ID="DecisionOptionsTaken">
+            <Settings>
+              <FontColor>00003F7F</FontColor>
+            </Settings>
+            <Styles>
+              <Style ID="DecisionOptionsTaken.Yes">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="DecisionOptionsTaken.No">
+                <Settings/>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+          <Style ID="OptionPayoff">
+            <Settings/>
+            <Styles>
+              <Style ID="OptionPayoff.Positive">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="OptionPayoff.Negative">
+                <Settings>
+                  <FontColor>000000FF</FontColor>
+                </Settings>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+        </Styles>
+      </Style>
+    </State>
+    <State ID="NotInTakenPath">
+      <Style ID="">
+        <Settings>
+          <LineWidth>0</LineWidth>
+          <FontColor>000080FF</FontColor>
+        </Settings>
+        <Styles>
+          <Style ID="Symbols">
+            <Settings/>
+            <Styles>
+              <Style ID="Symbols.Decision">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.MultiDecision">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.Chance">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.Terminator">
+                <Settings/>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+          <Style ID="SymbolAttributes">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="OptionDescriptors">
+            <Settings>
+              <BackgroundColor>00FBF9D7</BackgroundColor>
+            </Settings>
+            <Styles/>
+          </Style>
+          <Style ID="ConnectorLines">
+            <Settings>
+              <LineWidth>2</LineWidth>
+              <LineColor>00BDBD24</LineColor>
+            </Settings>
+            <Styles/>
+          </Style>
+          <Style ID="ChanceOptionProbabilities">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="DecisionOptionsTaken">
+            <Settings/>
+            <Styles>
+              <Style ID="DecisionOptionsTaken.Yes">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="DecisionOptionsTaken.No">
+                <Settings/>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+          <Style ID="OptionPayoff">
+            <Settings/>
+            <Styles>
+              <Style ID="OptionPayoff.Positive">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="OptionPayoff.Negative">
+                <Settings>
+                  <FontColor>000000FF</FontColor>
+                </Settings>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+        </Styles>
+      </Style>
+    </State>
+    <State ID="CloneInTakenPath">
+      <Style ID="">
+        <Settings>
+          <FontItalic>1</FontItalic>
+        </Settings>
+        <Styles>
+          <Style ID="Symbols">
+            <Settings/>
+            <Styles>
+              <Style ID="Symbols.Decision">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.MultiDecision">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.Chance">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.Terminator">
+                <Settings/>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+          <Style ID="SymbolAttributes">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="OptionDescriptors">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="ConnectorLines">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="ChanceOptionProbabilities">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="DecisionOptionsTaken">
+            <Settings/>
+            <Styles>
+              <Style ID="DecisionOptionsTaken.Yes">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="DecisionOptionsTaken.No">
+                <Settings/>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+          <Style ID="OptionPayoff">
+            <Settings/>
+            <Styles>
+              <Style ID="OptionPayoff.Positive">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="OptionPayoff.Negative">
+                <Settings/>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+        </Styles>
+      </Style>
+    </State>
+    <State ID="CloneNotInTakenPath">
+      <Style ID="">
+        <Settings/>
+        <Styles>
+          <Style ID="Symbols">
+            <Settings/>
+            <Styles>
+              <Style ID="Symbols.Decision">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.MultiDecision">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.Chance">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="Symbols.Terminator">
+                <Settings/>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+          <Style ID="SymbolAttributes">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="OptionDescriptors">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="ConnectorLines">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="ChanceOptionProbabilities">
+            <Settings/>
+            <Styles/>
+          </Style>
+          <Style ID="DecisionOptionsTaken">
+            <Settings/>
+            <Styles>
+              <Style ID="DecisionOptionsTaken.Yes">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="DecisionOptionsTaken.No">
+                <Settings/>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+          <Style ID="OptionPayoff">
+            <Settings/>
+            <Styles>
+              <Style ID="OptionPayoff.Positive">
+                <Settings/>
+                <Styles/>
+              </Style>
+              <Style ID="OptionPayoff.Negative">
+                <Settings/>
+                <Styles/>
+              </Style>
+            </Styles>
+          </Style>
+        </Styles>
+      </Style>
+    </State>
+  </StyleStates>
+  <CurrencyDecimals>0</CurrencyDecimals>
+  <CurrencyPosFormat>0</CurrencyPosFormat>
+  <CurrencyNegFormat>1</CurrencyNegFormat>
+  <CurrencySymbol>$</CurrencySymbol>
+  <Branch id="1e31e6ab-52f4-4e06-aea4-789a46499278">
+    <Caption>Buy a new car?</Caption>
+    <Comment>Right click for options</Comment>
+    <Type>Decision</Type>
+    <ChanceType>Percent</ChanceType>
+    <Probability>100</Probability>
+    <Payoff>0</Payoff>
+    <ChildrenVisible>1</ChildrenVisible>
+    <DecisionFixed>0</DecisionFixed>
+    <DecisionShowCaption>0</DecisionShowCaption>
+    <DecisionShowOwner>0</DecisionShowOwner>
+    <DecisionShowDueDate>0</DecisionShowDueDate>
+    <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+    <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+    <DecisionShowFixed>0</DecisionShowFixed>
+    <DecisionCaption></DecisionCaption>
+    <DecisionOwner></DecisionOwner>
+    <DecisionDueDate></DecisionDueDate>
+    <DecisionMultiBudget>-1</DecisionMultiBudget>
+    <PayoffSource></PayoffSource>
+    <Branches>
+      <Branch id="1166672f-0b19-4b9f-b25b-93a20647ba18">
+        <Caption>Buy big car</Caption>
+        <Comment>Replace with your cost expectation.
+
+The costs of the car should include at least:
+- The price
+- Transportation
+- The costs of registration</Comment>
+        <Type>Chance</Type>
+        <ChanceType>AnySum</ChanceType>
+        <Probability>0</Probability>
+        <Payoff>-60000</Payoff>
+        <ChildrenVisible>1</ChildrenVisible>
+        <DecisionFixed>0</DecisionFixed>
+        <DecisionShowCaption>1</DecisionShowCaption>
+        <DecisionShowOwner>0</DecisionShowOwner>
+        <DecisionShowDueDate>0</DecisionShowDueDate>
+        <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+        <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+        <DecisionShowFixed>0</DecisionShowFixed>
+        <DecisionCaption>3-point calculation</DecisionCaption>
+        <DecisionOwner></DecisionOwner>
+        <DecisionDueDate></DecisionDueDate>
+        <DecisionMultiBudget>-1</DecisionMultiBudget>
+        <PayoffSource></PayoffSource>
+        <Branches>
+          <Branch id="615e37f9-0d5e-4672-9d02-ba39c198a402">
+            <Caption>Optimistic costs (3 years)</Caption>
+            <Comment>If everything goes very, very well...
+
+Should include at least cost estimates for:
+- Petrol or Diesel
+- Maintenance and repairs
+- Tax and insurances
+- Bank interest for credit (if applicable)</Comment>
+            <Type>Chance</Type>
+            <ChanceType>Percent</ChanceType>
+            <Probability>1</Probability>
+            <Payoff>-16000</Payoff>
+            <ChildrenVisible>1</ChildrenVisible>
+            <DecisionFixed>0</DecisionFixed>
+            <DecisionShowCaption>1</DecisionShowCaption>
+            <DecisionShowOwner>0</DecisionShowOwner>
+            <DecisionShowDueDate>0</DecisionShowDueDate>
+            <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+            <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+            <DecisionShowFixed>0</DecisionShowFixed>
+            <DecisionCaption>Re-sell again after 3 years</DecisionCaption>
+            <DecisionOwner>myself</DecisionOwner>
+            <DecisionDueDate></DecisionDueDate>
+            <DecisionMultiBudget>-1</DecisionMultiBudget>
+            <PayoffSource></PayoffSource>
+            <Branches>
+              <Branch id="d5ae308b-7173-4f9e-a75e-4dfe5162f961">
+                <Caption>Optimistic resales price</Caption>
+                <Comment></Comment>
+                <Type>Decision</Type>
+                <ChanceType>Percent</ChanceType>
+                <Probability>50</Probability>
+                <Payoff>37000</Payoff>
+                <ChildrenVisible>1</ChildrenVisible>
+                <DecisionFixed>0</DecisionFixed>
+                <DecisionShowCaption>0</DecisionShowCaption>
+                <DecisionShowOwner>0</DecisionShowOwner>
+                <DecisionShowDueDate>0</DecisionShowDueDate>
+                <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+                <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+                <DecisionShowFixed>0</DecisionShowFixed>
+                <DecisionCaption></DecisionCaption>
+                <DecisionOwner></DecisionOwner>
+                <DecisionDueDate></DecisionDueDate>
+                <DecisionMultiBudget>-1</DecisionMultiBudget>
+                <PayoffSource></PayoffSource>
+              </Branch>
+              <Branch id="c922a833-72ea-4fdb-bb52-b0562a1415aa">
+                <Caption>Pessimistic resales price</Caption>
+                <Comment></Comment>
+                <Type>Decision</Type>
+                <ChanceType>Percent</ChanceType>
+                <Probability>50</Probability>
+                <Payoff>22000</Payoff>
+                <ChildrenVisible>1</ChildrenVisible>
+                <DecisionFixed>0</DecisionFixed>
+                <DecisionShowCaption>0</DecisionShowCaption>
+                <DecisionShowOwner>0</DecisionShowOwner>
+                <DecisionShowDueDate>0</DecisionShowDueDate>
+                <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+                <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+                <DecisionShowFixed>0</DecisionShowFixed>
+                <DecisionCaption></DecisionCaption>
+                <DecisionOwner></DecisionOwner>
+                <DecisionDueDate></DecisionDueDate>
+                <DecisionMultiBudget>-1</DecisionMultiBudget>
+                <PayoffSource></PayoffSource>
+              </Branch>
+            </Branches>
+          </Branch>
+          <Branch id="64c4dac0-7a07-4e72-ad3b-ea8d94222e55" ref="615e37f9-0d5e-4672-9d02-ba39c198a402">
+            <Caption>Most likely costs (3 years)</Caption>
+            <Comment>The most likely running cost estimate for this car.
+
+Should include at least cost estimates for:
+- Petrol or Diesel
+- Maintenance and repairs
+- Tax and insurances
+- Bank interest for credit (if applicable)</Comment>
+            <Type>Chance</Type>
+            <ChanceType>Percent</ChanceType>
+            <Probability>4</Probability>
+            <Payoff>-20000</Payoff>
+            <ChildrenVisible>1</ChildrenVisible>
+            <DecisionFixed>0</DecisionFixed>
+            <DecisionShowCaption>0</DecisionShowCaption>
+            <DecisionShowOwner>0</DecisionShowOwner>
+            <DecisionShowDueDate>0</DecisionShowDueDate>
+            <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+            <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+            <DecisionShowFixed>0</DecisionShowFixed>
+            <DecisionCaption></DecisionCaption>
+            <DecisionOwner></DecisionOwner>
+            <DecisionDueDate></DecisionDueDate>
+            <DecisionMultiBudget>-1</DecisionMultiBudget>
+            <PayoffSource></PayoffSource>
+          </Branch>
+          <Branch id="a683280f-80be-451a-956f-e583352c8be7" ref="615e37f9-0d5e-4672-9d02-ba39c198a402">
+            <Caption>Pessimistic costs (3 years)</Caption>
+            <Comment>If things go really bad.
+
+Should include at least cost estimates for:
+- Petrol or Diesel
+- Maintenance and repairs
+- Tax and insurances
+- Bank interest for credit (if applicable)</Comment>
+            <Type>Chance</Type>
+            <ChanceType>Percent</ChanceType>
+            <Probability>1</Probability>
+            <Payoff>-32000</Payoff>
+            <ChildrenVisible>1</ChildrenVisible>
+            <DecisionFixed>0</DecisionFixed>
+            <DecisionShowCaption>0</DecisionShowCaption>
+            <DecisionShowOwner>0</DecisionShowOwner>
+            <DecisionShowDueDate>0</DecisionShowDueDate>
+            <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+            <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+            <DecisionShowFixed>0</DecisionShowFixed>
+            <DecisionCaption></DecisionCaption>
+            <DecisionOwner></DecisionOwner>
+            <DecisionDueDate></DecisionDueDate>
+            <DecisionMultiBudget>-1</DecisionMultiBudget>
+            <PayoffSource></PayoffSource>
+          </Branch>
+        </Branches>
+      </Branch>
+      <Branch id="60116ad8-d6f2-41fc-8e6a-d7aa9e79baee">
+        <Caption>Buy small car</Caption>
+        <Comment>Replace with your 2nd cost expectation.
+
+The costs of the car should include at least:
+- The price
+- Transportation
+- The costs of registration
+
+Add further options as you like.</Comment>
+        <Type>Chance</Type>
+        <ChanceType>AnySum</ChanceType>
+        <Probability>0</Probability>
+        <Payoff>-40000</Payoff>
+        <ChildrenVisible>1</ChildrenVisible>
+        <DecisionFixed>0</DecisionFixed>
+        <DecisionShowCaption>1</DecisionShowCaption>
+        <DecisionShowOwner>0</DecisionShowOwner>
+        <DecisionShowDueDate>0</DecisionShowDueDate>
+        <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+        <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+        <DecisionShowFixed>0</DecisionShowFixed>
+        <DecisionCaption>3-point calculation</DecisionCaption>
+        <DecisionOwner></DecisionOwner>
+        <DecisionDueDate></DecisionDueDate>
+        <DecisionMultiBudget>-1</DecisionMultiBudget>
+        <PayoffSource></PayoffSource>
+        <Branches>
+          <Branch id="e731eacd-741f-432e-b8db-60e4dc21f18e">
+            <Caption>Optimistic costs (3 years)</Caption>
+            <Comment>If everything goes very, very well...
+
+Should include at least cost estimates for:
+- Petrol or Diesel
+- Maintenance and repairs
+- Tax and insurances
+- Bank interest for credit (if applicable)</Comment>
+            <Type>Chance</Type>
+            <ChanceType>Percent</ChanceType>
+            <Probability>1</Probability>
+            <Payoff>-12000</Payoff>
+            <ChildrenVisible>1</ChildrenVisible>
+            <DecisionFixed>0</DecisionFixed>
+            <DecisionShowCaption>1</DecisionShowCaption>
+            <DecisionShowOwner>0</DecisionShowOwner>
+            <DecisionShowDueDate>0</DecisionShowDueDate>
+            <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+            <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+            <DecisionShowFixed>0</DecisionShowFixed>
+            <DecisionCaption>Re-sell again after 3 years</DecisionCaption>
+            <DecisionOwner></DecisionOwner>
+            <DecisionDueDate></DecisionDueDate>
+            <DecisionMultiBudget>-1</DecisionMultiBudget>
+            <PayoffSource></PayoffSource>
+            <Branches>
+              <Branch id="97b041f9-ca1a-4e7c-b0a7-0444986b14ca">
+                <Caption>Optimistic resales price</Caption>
+                <Comment></Comment>
+                <Type>Decision</Type>
+                <ChanceType>Percent</ChanceType>
+                <Probability>50</Probability>
+                <Payoff>12000</Payoff>
+                <ChildrenVisible>1</ChildrenVisible>
+                <DecisionFixed>0</DecisionFixed>
+                <DecisionShowCaption>0</DecisionShowCaption>
+                <DecisionShowOwner>0</DecisionShowOwner>
+                <DecisionShowDueDate>0</DecisionShowDueDate>
+                <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+                <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+                <DecisionShowFixed>0</DecisionShowFixed>
+                <DecisionCaption></DecisionCaption>
+                <DecisionOwner></DecisionOwner>
+                <DecisionDueDate></DecisionDueDate>
+                <DecisionMultiBudget>-1</DecisionMultiBudget>
+                <PayoffSource></PayoffSource>
+              </Branch>
+              <Branch id="1a6f54dc-2ad3-48af-9937-135062b1699a">
+                <Caption>Pessimistic resales price</Caption>
+                <Comment></Comment>
+                <Type>Decision</Type>
+                <ChanceType>Percent</ChanceType>
+                <Probability>50</Probability>
+                <Payoff>9000</Payoff>
+                <ChildrenVisible>1</ChildrenVisible>
+                <DecisionFixed>0</DecisionFixed>
+                <DecisionShowCaption>0</DecisionShowCaption>
+                <DecisionShowOwner>0</DecisionShowOwner>
+                <DecisionShowDueDate>0</DecisionShowDueDate>
+                <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+                <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+                <DecisionShowFixed>0</DecisionShowFixed>
+                <DecisionCaption></DecisionCaption>
+                <DecisionOwner></DecisionOwner>
+                <DecisionDueDate></DecisionDueDate>
+                <DecisionMultiBudget>-1</DecisionMultiBudget>
+                <PayoffSource></PayoffSource>
+              </Branch>
+            </Branches>
+          </Branch>
+          <Branch id="a27f5777-4851-4da5-a61a-98808777a6f0" ref="e731eacd-741f-432e-b8db-60e4dc21f18e">
+            <Caption>Most likely costs (3 years)</Caption>
+            <Comment>The most likely running cost estimate for this car.
+
+Should include at least cost estimates for:
+- Petrol or Diesel
+- Maintenance and repairs
+- Tax and insurances
+- Bank interest for credit (if applicable)</Comment>
+            <Type>Chance</Type>
+            <ChanceType>Percent</ChanceType>
+            <Probability>4</Probability>
+            <Payoff>-17000</Payoff>
+            <ChildrenVisible>1</ChildrenVisible>
+            <DecisionFixed>0</DecisionFixed>
+            <DecisionShowCaption>0</DecisionShowCaption>
+            <DecisionShowOwner>0</DecisionShowOwner>
+            <DecisionShowDueDate>0</DecisionShowDueDate>
+            <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+            <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+            <DecisionShowFixed>0</DecisionShowFixed>
+            <DecisionCaption></DecisionCaption>
+            <DecisionOwner></DecisionOwner>
+            <DecisionDueDate></DecisionDueDate>
+            <DecisionMultiBudget>-1</DecisionMultiBudget>
+            <PayoffSource></PayoffSource>
+          </Branch>
+          <Branch id="2bfeff34-650a-41cb-84f0-ff44c08023ab" ref="e731eacd-741f-432e-b8db-60e4dc21f18e">
+            <Caption>Pessimistic costs (3 years)</Caption>
+            <Comment>If things go really bad.
+
+Should include at least cost estimates for:
+- Petrol or Diesel
+- Maintenance and repairs
+- Tax and insurances
+- Bank interest for credit (if applicable)</Comment>
+            <Type>Chance</Type>
+            <ChanceType>Percent</ChanceType>
+            <Probability>1</Probability>
+            <Payoff>-25000</Payoff>
+            <ChildrenVisible>1</ChildrenVisible>
+            <DecisionFixed>0</DecisionFixed>
+            <DecisionShowCaption>0</DecisionShowCaption>
+            <DecisionShowOwner>0</DecisionShowOwner>
+            <DecisionShowDueDate>0</DecisionShowDueDate>
+            <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+            <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+            <DecisionShowFixed>0</DecisionShowFixed>
+            <DecisionCaption></DecisionCaption>
+            <DecisionOwner></DecisionOwner>
+            <DecisionDueDate></DecisionDueDate>
+            <DecisionMultiBudget>-1</DecisionMultiBudget>
+            <PayoffSource></PayoffSource>
+          </Branch>
+        </Branches>
+      </Branch>
+      <Branch id="e6fec982-e389-408e-9dc7-8dd28c94a2f9">
+        <Caption>Lease car</Caption>
+        <Comment>Replace with your cost expectation.
+
+The costs for this car should include at least:
+- The initial settlement to the leasing bank
+- Transportation
+- The costs of registration</Comment>
+        <Type>Chance</Type>
+        <ChanceType>AnySum</ChanceType>
+        <Probability>100</Probability>
+        <Payoff>-12000</Payoff>
+        <ChildrenVisible>1</ChildrenVisible>
+        <DecisionFixed>0</DecisionFixed>
+        <DecisionShowCaption>1</DecisionShowCaption>
+        <DecisionShowOwner>0</DecisionShowOwner>
+        <DecisionShowDueDate>0</DecisionShowDueDate>
+        <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+        <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+        <DecisionShowFixed>0</DecisionShowFixed>
+        <DecisionCaption>3-point calculation</DecisionCaption>
+        <DecisionOwner></DecisionOwner>
+        <DecisionDueDate></DecisionDueDate>
+        <DecisionMultiBudget>-1</DecisionMultiBudget>
+        <PayoffSource></PayoffSource>
+        <Branches>
+          <Branch id="7e8aae45-d369-45be-b0dc-becf35a4c55c">
+            <Caption>Optimistic costs (3 years)</Caption>
+            <Comment>If everything goes very, very well...
+
+Should include at least cost estimates for:
+- Petrol or Diesel
+- Maintenance and repairs
+- Tax and insurances
+- Leasing payments</Comment>
+            <Type>Chance</Type>
+            <ChanceType>Percent</ChanceType>
+            <Probability>1</Probability>
+            <Payoff>-26000</Payoff>
+            <ChildrenVisible>1</ChildrenVisible>
+            <DecisionFixed>0</DecisionFixed>
+            <DecisionShowCaption>1</DecisionShowCaption>
+            <DecisionShowOwner>0</DecisionShowOwner>
+            <DecisionShowDueDate>0</DecisionShowDueDate>
+            <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+            <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+            <DecisionShowFixed>0</DecisionShowFixed>
+            <DecisionCaption>Final settlement to Leasing bank</DecisionCaption>
+            <DecisionOwner></DecisionOwner>
+            <DecisionDueDate></DecisionDueDate>
+            <DecisionMultiBudget>-1</DecisionMultiBudget>
+            <PayoffSource></PayoffSource>
+            <Branches>
+              <Branch id="4fe0a11c-ef29-40a6-9ef6-c5de544eee04">
+                <Caption>Pessimistic resales price</Caption>
+                <Comment></Comment>
+                <Type>Decision</Type>
+                <ChanceType>Percent</ChanceType>
+                <Probability>100</Probability>
+                <Payoff>11000</Payoff>
+                <ChildrenVisible>1</ChildrenVisible>
+                <DecisionFixed>0</DecisionFixed>
+                <DecisionShowCaption>0</DecisionShowCaption>
+                <DecisionShowOwner>0</DecisionShowOwner>
+                <DecisionShowDueDate>0</DecisionShowDueDate>
+                <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+                <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+                <DecisionShowFixed>0</DecisionShowFixed>
+                <DecisionCaption></DecisionCaption>
+                <DecisionOwner></DecisionOwner>
+                <DecisionDueDate></DecisionDueDate>
+                <DecisionMultiBudget>-1</DecisionMultiBudget>
+                <PayoffSource></PayoffSource>
+              </Branch>
+            </Branches>
+          </Branch>
+          <Branch id="d3da03af-0303-4692-b057-5dad340b57ba" ref="7e8aae45-d369-45be-b0dc-becf35a4c55c">
+            <Caption>Most likely costs (3 years)</Caption>
+            <Comment>The most likely running cost estimate for this car.
+
+Should include at least cost estimates for:
+- Petrol or Diesel
+- Maintenance and repairs
+- Tax and insurances
+- Leasing payments</Comment>
+            <Type>Chance</Type>
+            <ChanceType>Percent</ChanceType>
+            <Probability>4</Probability>
+            <Payoff>-34000</Payoff>
+            <ChildrenVisible>1</ChildrenVisible>
+            <DecisionFixed>0</DecisionFixed>
+            <DecisionShowCaption>0</DecisionShowCaption>
+            <DecisionShowOwner>0</DecisionShowOwner>
+            <DecisionShowDueDate>0</DecisionShowDueDate>
+            <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+            <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+            <DecisionShowFixed>0</DecisionShowFixed>
+            <DecisionCaption></DecisionCaption>
+            <DecisionOwner></DecisionOwner>
+            <DecisionDueDate></DecisionDueDate>
+            <DecisionMultiBudget>-1</DecisionMultiBudget>
+            <PayoffSource></PayoffSource>
+          </Branch>
+          <Branch id="85709925-e670-4c3d-b1b3-7256d072dd4a" ref="7e8aae45-d369-45be-b0dc-becf35a4c55c">
+            <Caption>Pessimistic costs (3 years)</Caption>
+            <Comment>If things go really bad.
+
+Should include at least cost estimates for:
+- Petrol or Diesel
+- Maintenance and repairs
+- Tax and insurances
+- Leasing payments</Comment>
+            <Type>Chance</Type>
+            <ChanceType>Percent</ChanceType>
+            <Probability>1</Probability>
+            <Payoff>-46000</Payoff>
+            <ChildrenVisible>1</ChildrenVisible>
+            <DecisionFixed>0</DecisionFixed>
+            <DecisionShowCaption>0</DecisionShowCaption>
+            <DecisionShowOwner>0</DecisionShowOwner>
+            <DecisionShowDueDate>0</DecisionShowDueDate>
+            <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+            <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+            <DecisionShowFixed>0</DecisionShowFixed>
+            <DecisionCaption></DecisionCaption>
+            <DecisionOwner></DecisionOwner>
+            <DecisionDueDate></DecisionDueDate>
+            <DecisionMultiBudget>-1</DecisionMultiBudget>
+            <PayoffSource></PayoffSource>
+          </Branch>
+        </Branches>
+      </Branch>
+      <Branch id="3fa875c8-e14a-406c-9d4c-9d3258a16679">
+        <Caption>Don't buy a car</Caption>
+        <Comment>There may also be costs coming up without a new car:
+
+- An old car may require additional maintenance and repairs.
+- You may have to pay for public transport and taxis.
+- You may have to depend on friends to help you, and you will have to give something back.l 
+
+But the initial investment should normally be Zero.</Comment>
+        <Type>Chance</Type>
+        <ChanceType>AnySum</ChanceType>
+        <Probability>0</Probability>
+        <Payoff>0</Payoff>
+        <ChildrenVisible>1</ChildrenVisible>
+        <DecisionFixed>0</DecisionFixed>
+        <DecisionShowCaption>1</DecisionShowCaption>
+        <DecisionShowOwner>0</DecisionShowOwner>
+        <DecisionShowDueDate>0</DecisionShowDueDate>
+        <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+        <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+        <DecisionShowFixed>0</DecisionShowFixed>
+        <DecisionCaption>3-point calculation</DecisionCaption>
+        <DecisionOwner></DecisionOwner>
+        <DecisionDueDate></DecisionDueDate>
+        <DecisionMultiBudget>-1</DecisionMultiBudget>
+        <PayoffSource></PayoffSource>
+        <Branches>
+          <Branch id="4d9d4bbe-c4be-4355-8ef0-fe8f4904803b">
+            <Caption>Optimistic costs (3 years)</Caption>
+            <Comment>If everything goes very, very well...
+
+Should include at least cost estimates for:
+- Petrol or Diesel
+- Maintenance and repairs
+- Tax and insurances
+- Bank interest for credit (if applicable)</Comment>
+            <Type>Decision</Type>
+            <ChanceType>Percent</ChanceType>
+            <Probability>1</Probability>
+            <Payoff>-20000</Payoff>
+            <ChildrenVisible>1</ChildrenVisible>
+            <DecisionFixed>0</DecisionFixed>
+            <DecisionShowCaption>0</DecisionShowCaption>
+            <DecisionShowOwner>0</DecisionShowOwner>
+            <DecisionShowDueDate>0</DecisionShowDueDate>
+            <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+            <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+            <DecisionShowFixed>0</DecisionShowFixed>
+            <DecisionCaption></DecisionCaption>
+            <DecisionOwner></DecisionOwner>
+            <DecisionDueDate></DecisionDueDate>
+            <DecisionMultiBudget>-1</DecisionMultiBudget>
+            <PayoffSource></PayoffSource>
+          </Branch>
+          <Branch id="c1d4fa1d-ae2b-4870-8cf3-8e7dd314a9ec">
+            <Caption>Most likely costs (3 years)</Caption>
+            <Comment>The most likely running cost estimate for this car.
+
+Should include at least cost estimates for:
+- Petrol or Diesel
+- Maintenance and repairs
+- Tax and insurances</Comment>
+            <Type>Decision</Type>
+            <ChanceType>Percent</ChanceType>
+            <Probability>4</Probability>
+            <Payoff>-28000</Payoff>
+            <ChildrenVisible>1</ChildrenVisible>
+            <DecisionFixed>0</DecisionFixed>
+            <DecisionShowCaption>0</DecisionShowCaption>
+            <DecisionShowOwner>0</DecisionShowOwner>
+            <DecisionShowDueDate>0</DecisionShowDueDate>
+            <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+            <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+            <DecisionShowFixed>0</DecisionShowFixed>
+            <DecisionCaption></DecisionCaption>
+            <DecisionOwner></DecisionOwner>
+            <DecisionDueDate></DecisionDueDate>
+            <DecisionMultiBudget>-1</DecisionMultiBudget>
+            <PayoffSource></PayoffSource>
+          </Branch>
+          <Branch id="64ff7794-a660-4e3b-8be2-c5fa2a632e48">
+            <Caption>Pessimistic costs (3 years)</Caption>
+            <Comment>If things go really bad.
+
+Should include at least cost estimates for:
+- Petrol or Diesel
+- Maintenance and repairs
+- Tax and insurances</Comment>
+            <Type>Decision</Type>
+            <ChanceType>Percent</ChanceType>
+            <Probability>1</Probability>
+            <Payoff>-44000</Payoff>
+            <ChildrenVisible>1</ChildrenVisible>
+            <DecisionFixed>0</DecisionFixed>
+            <DecisionShowCaption>0</DecisionShowCaption>
+            <DecisionShowOwner>0</DecisionShowOwner>
+            <DecisionShowDueDate>0</DecisionShowDueDate>
+            <DecisionMultiShowBudget>0</DecisionMultiShowBudget>
+            <DecisionMultiShowInvestment>0</DecisionMultiShowInvestment>
+            <DecisionShowFixed>0</DecisionShowFixed>
+            <DecisionCaption></DecisionCaption>
+            <DecisionOwner></DecisionOwner>
+            <DecisionDueDate></DecisionDueDate>
+            <DecisionMultiBudget>-1</DecisionMultiBudget>
+            <PayoffSource></PayoffSource>
+          </Branch>
+        </Branches>
+      </Branch>
+    </Branches>
+  </Branch>
+</Tree>

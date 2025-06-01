@@ -1,0 +1,12 @@
+Data de Início do Projeto: Segunda-Feira 04/Janeiro 2016
+
+Excessões Calendário:
+
+ - 1 semana inteira com meio expediente: 25 a 29 de janeiro.
+ - Recesso Empresarial: 14 e 15 de janeiro.
+ - Carnaval (Recesso): 8 e 9 de fevereiro. 
+ 
+ - Quarta-Feira de Cinzas: Dia 10 de fevereiro temos meio expediente (13h as 17h).
+
+ - Sexta-Feira Santa (Feriado): 25 de março.
+ - Tiradentes (Feriado): 21 de abril.
