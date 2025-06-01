@@ -1,0 +1,3 @@
+Qual é o desafio e qual é o propósito da solução? O que ela visa resolver?
+
+O desafio e propósito da solução é proporcionar uma plataforma, chamada Rota Urbana, que apresente lugares e diversão de uma determinada cidade para o usuário da plataforma, independentemente se ele é visitante ou morador daquela cidade.  A plataforma visa resolver a necessidade de encontrar lugares, restaurantes e pubs em um só lugar através de recomendações por perfil e IA, proporcionando agilidade na busca e dando protagonismo ao público para escolher os melhores lugares para se frequentar.
